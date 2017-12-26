@@ -2,31 +2,18 @@
 
 
 
-时间限制 
-
-400 ms
+时间限制 400 ms
 
 
-
-内存限制 
-
-65536 kB
+内存限制 65536 kB
 
 
-
-代码长度限制 
-
-16000 B
+代码长度限制 16000 B
 
 
+判题程序 Standard 
 
-判题程序 
-
-Standard 
-
-作者 
-
-CHEN, Yue
+作者 CHEN, Yue
 
 
 A family hierarchy is usually presented by a pedigree tree. 
@@ -76,6 +63,9 @@ Sample Output
 用链表存储非叶结点的子结点，M个链表存储在数组中，
 层序遍历树，用Last记录每层最后元素编号（初始化为根结点编号），Tail记录当前进队列的结点编号（初始不赋值），
 count记录每层叶结点数量（初始为0）
+
 根结点进队列，while队列不空，队列头元素出队列（设为n），若n无孩子，count++，否则其所有子结点进队列，并将
 当前进队列的子结点赋值给Tail，所有子结点进队列后，若n==Last，说明n是一层的最后元素，此时输出count，并将
 count归0，Tail赋值给Last（即下一层的最后元素）
+
+
