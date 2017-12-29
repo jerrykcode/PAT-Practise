@@ -82,16 +82,23 @@ Sorry
 
 思路：
 
-用长度为N的数组存储N个队列，队列存储客户的编号 - 1，表示在窗口排队的客户，用长度为N的数组first和last分别表示每个窗
-口的第一个和最后一个客户离开的时间，用长度为K的数组start和departure分别表示这K个客户开始办事和离开的时间，时间用从
-00:00到当前时刻的分钟数表示。
+用数组windows存储N个队列，队列存储客户的编号 - 1(题目中编号1~K，程序中0~K - 1)，表示在窗口排队的客户，用长度为N的数
+组first和last分别表示每个窗口的第一个和最后一个客户离开的时间，用长度为K的数组start和departure分别表示这K个客户开始
+办事和离开的时间，时间用从00:00到当前时刻的分钟数表示。
 
-first和departure初始化为480(08:00)，对于0~N*M-1的客户，存储到队列中且计算出start和departure值，更新first和last，对于
-黄线外的客户，在first中找到最小的值对应的下标，此窗口最先有客户离开，黄线外的一个客户进入该窗口对应的队列，计算该客户
-的start及departure值，更新窗口的first和last值
+边输入客户需要的时间，边计算该客户的开始时间与离开时间：
 
-start即为窗口的last，last更新为last+该客户的时间，departure即为更新后的last，first更新为队列第一个元素(front())的离开
-时间
+first和departure初始化为480(08:00)，输入每个客户的时间minutes，对于N个窗口能排下的客户(编号0~N*M-1，设其编号为i)，通
+过编号i找到相应的窗口w(w = (i < N) ? i : i%N)，i进队列windows[w]，若i < N，则i是当天第一个到达该窗口的人，first[w] += minutes，
+否则first[w]不变化，i进入窗口前last[w]是窗口w的最后一个客户离开的时间(还没有人排队则为480(08:00))，也就是客户i开始的时间，
+故start[i]　= last[w]，i进入窗口后窗口w的最后一个客户为i，故last[w]更新为last[w] +　minutes，即加上i的时间，更新后的last[w]
+也是i的离开时间，故departure[i] = last[w]
+ 
+对于N个窗口不能排下，在黄线外的客户，设每个客户编号为i，则在first中找到最小值的下标w，w就是最先有客户离开的窗口，即i应
+该进入排队的窗口，windows[w]队列的第一个元素出队列，i进队列，此时first[w]更新为窗口当前第一个客户的离开时间，即first[w] 
+= departure[widows[w].front()]，i进入窗口前last[w]是窗口w的最后一个客户离开的时间，也就是客户i开始的时间，故start[i]　= 
+last[w]，i进入窗口后窗口w的最后一个客户为i，故last[w]更新为last[w] +　minutes，即加上i的时间，更新后的last[w]也是i的离开
+时间，故departure[i] = last[w]
 
 对于Q个客户，若其start值>=17*60 (17:00)，输出"Sorry"，否则输出departure值 (更改为hh:mm)
 
