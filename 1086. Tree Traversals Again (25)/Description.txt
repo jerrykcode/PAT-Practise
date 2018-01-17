@@ -74,7 +74,7 @@ Sample Output:
 	若current == NULL，则current->data = X，然后current赋给根，即root = current
 	
 	若current != NULL，则建立结点tmp，其data为X，若current的left不存在则tmp赋给current的left，(right同)，
-	若current的left、right都不存在则current更新为current的父结点，再次判断其left、right是否存在，最后tmp
+	若current的left、right都存在则current更新为current的父结点，再次判断其left、right是否存在，最后tmp
 	的left、right均为NULL，tmp的父指针parent为current，最后更新current为tmp，current进栈
 	
 对于 "Pop"操作：
