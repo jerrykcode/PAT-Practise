@@ -1,0 +1,100 @@
+1055. The World's Richest (25)
+
+时间限制 400 ms
+
+内存限制 128000 kB
+
+代码长度限制 16000 B
+
+判题程序 Standard
+
+作者 CHEN, Yue
+--------------------------------------------------------------------------------------------------------
+
+Forbes magazine publishes every year its list of billionaires based on the annual ranking of the world's 
+wealthiest people. Now you are supposed to simulate this job, but concentrate only on the people in a certain 
+range of ages. That is, given the net worths of N people, you must find the M richest people in a given range 
+of their ages.
+--------------------------------------------------------------------------------------------------------
+
+
+Input Specification:
+
+Each input file contains one test case. For each case, the first line contains 2 positive integers: N (<=10^5) 
+- the total number of people, and K (<=10^3) - the number of queries. Then N lines follow, each contains the 
+name (string of no more than 8 characters without space), age (integer in (0, 200]), and the net worth (integer 
+in [-106, 106]) of a person. Finally there are K lines of queries, each contains three positive integers: M (<= 
+100) - the maximum number of outputs, and [Amin, Amax] which are the range of ages. All the numbers in a line 
+are separated by a space.
+--------------------------------------------------------------------------------------------------------
+
+
+Output Specification:
+
+For each query, first print in a line "Case #X:" where X is the query number starting from 1. Then output the M 
+richest people with their ages in the range [Amin, Amax]. Each person's information occupies a line, in the format
+
+					Name Age Net_Worth
+					
+The outputs must be in non-increasing order of the net worths. In case there are equal worths, it must be in 
+non-decreasing order of the ages. If both worths and ages are the same, then the output must be in non-decreasing 
+alphabetical order of the names. It is guaranteed that there is no two persons share all the same of the three 
+pieces of information. In case no one is found, output "None".
+--------------------------------------------------------------------------------------------------------
+
+
+Sample Input:
+
+12 4
+Zoe_Bill 35 2333
+Bob_Volk 24 5888
+Anny_Cin 95 999999
+Williams 30 -22
+Cindy 76 76000
+Alice 18 88888
+Joe_Mike 32 3222
+Michael 5 300000
+Rosemary 40 5888
+Dobby 24 5888
+Billy 24 5888
+Nobody 5 0
+4 15 45
+4 30 35
+4 5 95
+1 45 50
+
+
+Sample Output:
+
+Case #1:
+Alice 18 88888
+Billy 24 5888
+Bob_Volk 24 5888
+Dobby 24 5888
+Case #2:
+Joe_Mike 32 3222
+Zoe_Bill 35 2333
+Williams 30 -22
+Case #3:
+Anny_Cin 95 999999
+Michael 5 300000
+Alice 18 88888
+Cindy 76 76000
+Case #4:
+None
+--------------------------------------------------------------------------------------------------------
+
+
+题意：
+
+输入N个人的姓名、年龄与财富，输出在M个给定年龄段内的人，对每个年龄段，顺序按财富非递增排序，若财富相同则按
+年龄非递减排序，仍有相同则按姓名字符串非递减排序。每个年龄段最多输出给定人数M（M <= 100）人
+
+
+思路：
+
+本题思路参考了 https://www.liuchuo.net/archives/2255 （柳婼 の blog）
+
+结构体数组存储所有人，按财富非递增、年龄非递减、姓名非递减对结构体数组排序。由于每个年龄段最多输出的M <= 100，故
+每个岁数的人也不可能输出超过100个人，故将每个岁数的前100个人存储到一个vector中。然后对于每个年龄段，遍历结vector，
+输出其中在年龄段内的人
