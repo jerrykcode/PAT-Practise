@@ -1,0 +1,121 @@
+1095. Cars on Campus (30)
+
+时间限制 220 ms
+
+内存限制 65536 kB
+
+代码长度限制 16000 B
+
+判题程序 Standard 
+
+作者 CHEN, Yue
+-----------------------------------------------------------------------------------------------
+
+
+Zhejiang University has 6 campuses and a lot of gates. From each gate we can collect the in/out 
+times and the plate numbers of the cars crossing the gate. Now with all the information available, 
+you are supposed to tell, at any specific time point, the number of cars parking on campus, and at 
+the end of the day find the cars that have parked for the longest time period.
+-----------------------------------------------------------------------------------------------
+
+
+ Input Specification: 
+
+Each input file contains one test case. Each case starts with two positive integers N (<= 10000), 
+the number of records, and K (<= 80000) the number of queries. Then N lines follow, each gives a 
+record in the format
+
+								plate_number hh:mm:ss status
+
+where plate_number is a string of 7 English capital letters or 1-digit numbers; hh:mm:ss represents 
+the time point in a day by hour:minute:second, with the earliest time being 00:00:00 and the latest 
+23:59:59; and status is either in or out.
+
+Note that all times will be within a single day. Each "in" record is paired with the chronologically 
+next record for the same car provided it is an "out" record. Any "in" records that are not paired with 
+an "out" record are ignored, as are "out" records not paired with an "in" record. It is guaranteed that 
+at least one car is well paired in the input, and no car is both "in" and "out" at the same moment. 
+Times are recorded using a 24-hour clock. 
+
+Then K lines of queries follow, each gives a time point in the format hh:mm:ss. Note: the queries are 
+given in ascending order of the times.
+-----------------------------------------------------------------------------------------------
+
+
+ Output Specification: 
+
+For each query, output in a line the total number of cars parking on campus. The last line of output is 
+supposed to give the plate number of the car that has parked for the longest time period, and the corresponding 
+time length. If such a car is not unique, then output all of their plate numbers in a line in alphabetical 
+order, separated by a space.
+-----------------------------------------------------------------------------------------------
+
+
+Sample Input:
+
+16 7
+JH007BD 18:00:01 in
+ZD00001 11:30:08 out
+DB8888A 13:00:00 out
+ZA3Q625 23:59:50 out
+ZA133CH 10:23:00 in
+ZD00001 04:09:59 in
+JH007BD 05:09:59 in
+ZA3Q625 11:42:01 out
+JH007BD 05:10:33 in
+ZA3Q625 06:30:50 in
+JH007BD 12:23:42 out
+ZA3Q625 23:55:00 in
+JH007BD 12:24:23 out
+ZA133CH 17:11:22 out
+JH007BD 18:07:01 out
+DB8888A 06:30:50 in
+05:10:00
+06:30:50
+11:00:00
+12:23:42
+14:00:00
+18:00:00
+23:59:00
+
+Sample Output:
+
+1
+4
+5
+2
+1
+0
+1
+JH007BD ZD00001 07:20:09
+-----------------------------------------------------------------------------------------------
+
+
+题意：
+
+输入N条记录，每条记录包括汽车的名字、此记录的时刻（hh:mm:ss）及这个时刻汽车的状态（in或out）。若
+记录a、b的汽车名字相同，a的时刻早于b的时刻，a的状态为in且b是按时间顺序a之后第一个状态为out的汽车
+名字相同的记录，则a、b为一对记录。若只考虑一对一对的记录，输入K个时刻，求每个时刻有多少辆车。最后
+输出停留时间最长的车的名字与停留时间，若停留最久的汽车不唯一，则按名字的字符串大小从小到大输出（没
+有两个记录的时刻相同）
+
+
+思路：
+
+时刻换成从00:00:00到该时刻的秒数，结构体数组存储N条记录，先安名字大小排序，名字相同的再按其时刻递增
+排序。排序完后，同样汽车名字的记录排在一起，根据他们的状态可将配对的记录存储在vector中（那些没有配对
+的记录排除在外）。用map存储一辆车的名字与其停留时间的对应，配对的记录的时间差要加到相应的value中
+
+对于vector，对其元素按时刻递增排序。
+
+此时，对于K个查询时刻，只需在vector中求该时刻之前的状态为in的记录之和减去状态为out的记录之和即可。但
+是K最大为80000，这样测试点4会超时
+
+解决方法参考了 https://www.liuchuo.net/archives/2951 (柳婼 の blog) "因为多次询问值，为了避免超时，可
+以把他们的车辆数cnt数组先算出来 ... cnt[i]表示在i下标的记录的时间点的时候车辆的数量"
+
+遍历vector，vector中第i个记录的时刻（包括该时刻）到第i + 1个记录的时刻（不包括该时刻）之间的所有时刻
+（按秒记）的汽车数量均为第i个记录时的汽车数量。从00:00:00到第0个记录的时刻之间的汽车数量为0；从最后一个
+记录时刻到23:59:59之间的汽车数量为最后一个记录时的汽车数量。每个记录若状态为in则车数增1，若是out则减1
+
+最后遍历map，找出停留时间最长的车
