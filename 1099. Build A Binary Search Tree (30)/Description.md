@@ -9,7 +9,7 @@
 * 判题程序 Standard 
 
 * 作者 CHEN, Yue
-------------------------------------------------------------------------------------------------------
+
 
 
 A Binary Search Tree (BST) is recursively defined as a binary tree which has the following properties:
@@ -22,7 +22,7 @@ output the level order traversal sequence of that tree. The sample is illustrate
 
 * [Figure1 & Figure2](http://nos.patest.cn/h8_nkqjeu5lglo.jpg)
 
-------------------------------------------------------------------------------------------------------
+
 
 
 ## Input Specification: 
@@ -32,14 +32,14 @@ is the total number of nodes in the tree. The next N lines each contains the lef
 node in the format "left_index right_index", provided that the nodes are numbered from 0 to N-1, and 0 is always 
 the root. If one child is missing, then -1 will represent the NULL child pointer. Finally N distinct integer keys 
 are given in the last line.
-------------------------------------------------------------------------------------------------------
+
 
 
 ## Output Specification: 
 
 For each test case, print in one line the level order traversal sequence of that tree. All the numbers must be 
 separated by a space, with no extra space at the end of the line. 
-------------------------------------------------------------------------------------------------------
+
 
 
 ## Sample Input:
