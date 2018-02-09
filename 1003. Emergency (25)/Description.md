@@ -1,33 +1,23 @@
-1003. Emergency (25)
+# 1003. Emergency (25)
 
 
 
-时间限制 
-
-400 ms
+* 时间限制 400 ms
 
 
 
-内存限制 
-
-65536 kB
+* 内存限制      65536 kB
 
 
 
-代码长度限制 
-
-16000 B
+* 代码长度限制 16000 B
 
 
 
-判题程序 
+* 判题程序 Standard 
 
-Standard 
+* 作者 CHEN, Yue
 
-作者 
-
-CHEN, Yue
---------------------------------------------------------------
 
 
 As an emergency rescue team leader of a city, you are given a special map of your country. 
@@ -36,10 +26,10 @@ each city and the length of each road between any pair of cities are marked on t
 When there is an emergency call to you from some other city, your job is to lead your men 
 to the place as quickly as possible, and at the mean time, call up as many hands on the 
 way as possible.
---------------------------------------------------------------
 
 
-Input
+
+## Input
 
 Each input file contains one test case. For each test case, the first line contains 4 
 positive integers: N (<= 500) - the number of cities (and the cities are numbered from 0 to N-1),
@@ -48,21 +38,21 @@ respectively. The next line contains N integers, where the i-th integer is the n
 teams in the i-th city. Then M lines follow, each describes a road with three integers c1, c2 and L, 
 which are the pair of cities connected by a road and the length of that road, respectively. 
 It is guaranteed that there exists at least one path from C1 to C2. 
---------------------------------------------------------------
 
 
 
-Output
+
+## Output
 
 For each test case, print in one line two numbers: the number of different shortest paths between C1 and C2,
 and the maximum amount of rescue teams you can possibly gather.
 All the numbers in a line must be separated by exactly one space, and there is no extra space 
 allowed at the end of a line.
----------------------------------------------------------------
+
  
  
  
-Sample Input
+## Sample Input
 5 6 0 2
 1 2 1 5 3
 0 1 1
@@ -72,20 +62,21 @@ Sample Input
 2 4 1
 3 4 1
 
-Sample Output
+## Sample Output
 2 4
------------------------------------------------------------------
 
 
 
-题意：
+
+## 题意：
 N个城市M条路，已知每个城市的救援小组的数量，每条路的起点城市与终点城市及该路的长度，
 问两个城市之间所有最短路径（长度小即为短）的数量，
 以及最短路径上能够集合到的最多小组数量（即所有最短路径中点权之和最大的）
 
 
-思路：
-本题参考柳婼 https://www.liuchuo.net/archives/2359
+## 思路：
+本题思路参考了 [柳婼 の blog 1003. Emergency (25)-PAT甲级真题（Dijkstra算法）](https://www.liuchuo.net/archives/2359)
+
 用dijkstra，
 设源为s，目的地为des
 数组int dist[] 为每个顶点（城市）与源s的当前最短距离，
@@ -102,3 +93,12 @@ int weight[] 为每个顶点与源s的最短路径中能得到的最大的小组
 再次从未收录的顶点中找dist值最小的顶点收录，
 直到所有连通的顶点均收录，或收录目的地des，
 此时跳出循环输出num[des]与weight[des]
+
+## 代码：
+
+ [1003. Emergency (25).cpp ](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/1003.%20Emergency%20(25)/1003.%20Emergency%20(25)_3.cpp)
+ 
+ 
+ ## 参考：
+ 
+ [柳婼 の blog 1003. Emergency (25)-PAT甲级真题（Dijkstra算法）](https://www.liuchuo.net/archives/2359)
