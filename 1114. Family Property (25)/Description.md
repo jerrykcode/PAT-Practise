@@ -78,102 +78,103 @@ N个人，输入每个人的id、父母id及所有子女的id，以及此人的�
 
 [1114. Family Property (25).cpp ](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/1114.%20Family%20Property%20(25)/1114.%20Family%20Property%20(25).cpp)
 
+```cpp
+#include "stdafx.h"
+#include <iostream>
+using namespace std;
+#include <queue>
+#include <vector>
+#include <algorithm>
 
-    #include "stdafx.h"
-    #include <iostream>
-    using namespace std;
-    #include <queue>
-    #include <vector>
-    #include <algorithm>
-    
-    typedef struct pnode { 
-    	int id;
-    	double  m_estate, area;
-    	int flag;
-    	vector<int> direct_relative; /* person的father、mother及children */
-    } person;
-    
-    typedef struct fnode { /* family*/
-    	int id, m;
-    	double avg_sets, avg_area;
-    } family;
-    
-    bool compare(family a, family b)
-    {
-    	return a.avg_area != b.avg_area ? a.avg_area > b.avg_area:a.id < b.id;
-    }
-    
-    void bfs(person *persons, int * person_id, int n)
-    {	/* BFS求连通分量 */
-    	vector<family> families; /* 一个family为一个连通分量，存储在vector中 */
-    	for (int i = 0; i < n; i++) {
-    		int id = person_id[i];
-    		if (persons[id].flag == 1) continue; /* 已记录过 */
-    		queue<int>q;
-    		vector<int> family_members; /* 连通分量中的顶点，即家庭成员 */
-    		q.push(id);
-    		family_members.push_back(id);
-    		persons[id].flag = 1;
-    		while (!q.empty()) { //BFS
-    			int p = q.front();
-    			q.pop();
-    			for (auto it = persons[p].direct_relative.begin(); it != persons[p].direct_relative.end(); it++) //parents或chidren
-    				if (persons[*it].flag == 0) {
-    					q.push(*it);
-    					family_members.push_back(*it);
-    					persons[*it].flag = 1;
-    				}
-    		}
-    		double total_sets = 0, total_area = 0;
-    		int min_id = 9999;
-    		for (auto it = family_members.begin(); it != family_members.end(); it++) {
-    			total_sets += persons[*it].m_estate;
-    			total_area += persons[*it].area;
-    			if (*it < min_id)
-    				min_id = *it;
-    		}
-    		double avg_sets = total_sets  / family_members.size();
-    		double avg_area = total_area / family_members.size();
-    		int m = family_members.size();
-    		families.push_back({ min_id, m, avg_sets, avg_area});
-    	}
-    	sort(families.begin(), families.end(), compare);
-    	cout << families.size() << endl;
-    	for (auto it = families.begin(); it != families.end(); it++) 
-    		printf("%04d %d %.3f %.3f\n", it->id, it->m, it->avg_sets, it->avg_area);
-    }
-    
-    int main()
-    {
-    	int n;
-    	cin >> n;
-    	person persons[10000];
-    	for (int i = 0; i < 10000; i++) persons[i] = {i, 0.0, 0.0, 0};
-    	int id, father, mother, child, k;
-    	double m_estate, area;
-    	int *person_id = new int[n];
-    	for (int i = 0; i < n; i++) {
-    		cin >> id >> father >> mother >> k;
-    		vector<int> direct_relative;
-    		if (father != -1) {
-    			direct_relative.push_back(father);
-    			persons[father].direct_relative.push_back(id); //关系是相互的
-    		}
-    		if (mother != -1) {
-    			direct_relative.push_back(mother);
-    			persons[mother].direct_relative.push_back(id);
-    		}
-    		for (int j = 0; j < k; j++) {
-    			cin >> child;
-    			if (child != -1) {
-    				direct_relative.push_back(child);
-    				persons[child].direct_relative.push_back(id);
-    			}
-    		}
-    		cin >> m_estate >> area;
-    		persons[id] = {id, m_estate, area, 0, direct_relative};
-    		person_id[i] = id;
-    	}
-    	bfs(persons, person_id, n);
-        return 0;
-    }
+typedef struct pnode { 
+	int id;
+	double  m_estate, area;
+	int flag;
+	vector<int> direct_relative; /* person的father、mother及children */
+} person;
+
+typedef struct fnode { /* family*/
+	int id, m;
+	double avg_sets, avg_area;
+} family;
+
+bool compare(family a, family b)
+{
+	return a.avg_area != b.avg_area ? a.avg_area > b.avg_area:a.id < b.id;
+}
+
+void bfs(person *persons, int * person_id, int n)
+{	/* BFS求连通分量 */
+	vector<family> families; /* 一个family为一个连通分量，存储在vector中 */
+	for (int i = 0; i < n; i++) {
+		int id = person_id[i];
+		if (persons[id].flag == 1) continue; /* 已记录过 */
+		queue<int>q;
+		vector<int> family_members; /* 连通分量中的顶点，即家庭成员 */
+		q.push(id);
+		family_members.push_back(id);
+		persons[id].flag = 1;
+		while (!q.empty()) { //BFS
+			int p = q.front();
+			q.pop();
+			for (auto it = persons[p].direct_relative.begin(); it != persons[p].direct_relative.end(); it++) //parents或chidren
+				if (persons[*it].flag == 0) {
+					q.push(*it);
+					family_members.push_back(*it);
+					persons[*it].flag = 1;
+				}
+		}
+		double total_sets = 0, total_area = 0;
+		int min_id = 9999;
+		for (auto it = family_members.begin(); it != family_members.end(); it++) {
+			total_sets += persons[*it].m_estate;
+			total_area += persons[*it].area;
+			if (*it < min_id)
+				min_id = *it;
+		}
+		double avg_sets = total_sets  / family_members.size();
+		double avg_area = total_area / family_members.size();
+		int m = family_members.size();
+		families.push_back({ min_id, m, avg_sets, avg_area});
+	}
+	sort(families.begin(), families.end(), compare);
+	cout << families.size() << endl;
+	for (auto it = families.begin(); it != families.end(); it++) 
+		printf("%04d %d %.3f %.3f\n", it->id, it->m, it->avg_sets, it->avg_area);
+}
+
+int main()
+{
+	int n;
+	cin >> n;
+	person persons[10000];
+	for (int i = 0; i < 10000; i++) persons[i] = {i, 0.0, 0.0, 0};
+	int id, father, mother, child, k;
+	double m_estate, area;
+	int *person_id = new int[n];
+	for (int i = 0; i < n; i++) {
+		cin >> id >> father >> mother >> k;
+		vector<int> direct_relative;
+		if (father != -1) {
+			direct_relative.push_back(father);
+			persons[father].direct_relative.push_back(id); //关系是相互的
+		}
+		if (mother != -1) {
+			direct_relative.push_back(mother);
+			persons[mother].direct_relative.push_back(id);
+		}
+		for (int j = 0; j < k; j++) {
+			cin >> child;
+			if (child != -1) {
+				direct_relative.push_back(child);
+				persons[child].direct_relative.push_back(id);
+			}
+		}
+		cin >> m_estate >> area;
+		persons[id] = {id, m_estate, area, 0, direct_relative};
+		person_id[i] = id;
+	}
+	bfs(persons, person_id, n);
+	return 0;
+}
+```
