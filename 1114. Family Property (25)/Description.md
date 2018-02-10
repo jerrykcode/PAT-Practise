@@ -57,9 +57,9 @@ where ID is the smallest ID in the family; M is the total number of family membe
 ## Sample Output:
 
 3
-8888 1 1.000 1000.000
-0001 15 0.600 100.000
-5551 4 0.750 100.000
+8888 1 1.000 1000.000  
+0001 15 0.600 100.000  
+5551 4 0.750 100.000  
 
 
 ## 题意：
