@@ -21,9 +21,9 @@
 
 A Binary Search Tree (BST) is recursively defined as a binary tree which has the following properties:
 
-•The left subtree of a node contains only nodes with keys less than or equal to the node's key. 
-•The right subtree of a node contains only nodes with keys greater than the node's key. 
-•Both the left and right subtrees must also be binary search trees. 
+•The left subtree of a node contains only nodes with keys less than or equal to the node's key.   
+•The right subtree of a node contains only nodes with keys greater than the node's key.   
+•Both the left and right subtrees must also be binary search trees.   
 
 Insert a sequence of numbers into an initially empty binary search tree. Then you are supposed to count the total number of nodes in the lowest 2 levels of the resulting tree.
 
