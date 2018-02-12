@@ -1,4 +1,4 @@
-# 1101. Quick Sort (25)
+﻿# 1101. Quick Sort (25)
 
 [原题地址](https://www.patest.cn/contests/pat-a-practise/1101)
 
@@ -69,7 +69,7 @@ int 数组 list 存储序列。若 list[0] ~ list[i - 1] 均小于 list[i] 而 l
     * list[n - 1] , i = n - 1
     * list[i] < min[i + 1] ? list[i] : min[i + 1] , i < n - 1
 
-求出 max 与 min 之后，遍历 list，对于list[i]，若 i == 0 或者 list[i] > max[i - 1]，则 list[i] 比其之前的元素都大；若 i == n - 1 或者 list[i] < min[i - 1]，则 list[i] 比其之后的元素都小。满足上述两条件的 list[i] 为一个主元，将他放入vector中
+求出 max 与 min 之后，遍历 list，对于list[i]，若 i == 0 或者 list[i] > max[i - 1]，则 list[i] 比其之前的元素都大；若 i == n - 1 或者 list[i] < min[i + 1]，则 list[i] 比其之后的元素都小。满足上述两条件的 list[i] 为一个主元，将他放入vector中
 
 最后输出 vector 的 size() 并遍历输出 vector
 
