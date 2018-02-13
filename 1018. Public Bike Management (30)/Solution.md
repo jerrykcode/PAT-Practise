@@ -1,4 +1,4 @@
-## 1018. Public Bike Management (30)
+﻿## 1018. Public Bike Management (30)
 [原题地址](https://www.patest.cn/contests/pat-a-practise/1018)
 * 时间限制 400 ms
 
@@ -20,7 +20,7 @@ or send bikes to adjust the condition of that station to perfect. And more, all 
 adjusted as well. 
 
 When a problem station is reported, PBMC will always choose the shortest path to reach that station. If there are 
-more than one shortest path, the one that requires the least number of bikes sent from PBMC will be chosen.  
+more than one shortest path, the one that requires the least number of bikes sent from PBMC will be chosen.
 ![Figure 1](http://nos.patest.cn/11_lrrk0m5o4kg.jpg)
 *Figure 1*
 
