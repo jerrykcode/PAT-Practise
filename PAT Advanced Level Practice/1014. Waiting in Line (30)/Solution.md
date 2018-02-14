@@ -1,4 +1,4 @@
-# 1014. Waiting in Line (30)
+﻿# 1014. Waiting in Line (30)
 [原题地址](https://www.patest.cn/contests/pat-a-practise/1014)
 * 时间限制 400 ms
 
@@ -104,7 +104,7 @@ last[w]，i进入窗口后窗口w的最后一个客户为i，故last[w]更新为
 
 ## 代码：
 
-[1014. Waiting in Line (30).cpp](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/1014.%20Waiting%20in%20Line%20(30)/1014.%20Waiting%20in%20Line%20(30).cpp)
+[1014. Waiting in Line (30).cpp](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1014.%20Waiting%20in%20Line%20(30)/1014.%20Waiting%20in%20Line%20(30).cpp)
 
 ```cpp
 #include "stdafx.h"

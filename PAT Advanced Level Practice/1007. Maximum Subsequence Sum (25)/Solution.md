@@ -60,7 +60,7 @@ max，arr[maxi]，arr[maxj]
 
 ## 代码：
 
-[1007. Maximum Subsequence Sum (25).cpp](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/1007.%20Maximum%20Subsequence%20Sum%20(25)/1007.%20Maximum%20Subsequence%20Sum%20(25).cpp)
+[1007. Maximum Subsequence Sum (25).cpp](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1007.%20Maximum%20Subsequence%20Sum%20(25)/1007.%20Maximum%20Subsequence%20Sum%20(25).cpp)
 
 ```cpp
 #include "stdafx.h"

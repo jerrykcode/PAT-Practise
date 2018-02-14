@@ -1,4 +1,4 @@
-# 1013. Battle Over Cities (25)
+﻿# 1013. Battle Over Cities (25)
 [原题地址](https://www.patest.cn/contests/pat-a-practise/1013)
 * 时间限制 400 ms
 
@@ -72,7 +72,7 @@ For each of the K cities, output in a line the number of highways need to be rep
 
 ## 代码：
 
-[1013. Battle Over Cities (25).cpp ](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/1013.%20Battle%20Over%20Cities%20(25)/1013.%20Battle%20Over%20Cities%20(25).cpp)
+[1013. Battlehttps://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1013.%20Battle%20Over%20Cities%20(25)/1013.%20Battle%20Over%20Cities%20(25).cppting%20in%20Line%20(30).cpp)
 
 ```cpp
 #include "stdafx.h"

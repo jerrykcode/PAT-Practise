@@ -1,4 +1,4 @@
-# 1115. Counting Nodes in a BST (30)
+﻿# 1115. Counting Nodes in a BST (30)
 
 [原题地址](https://www.patest.cn/contests/pat-a-practise/1115)
 
@@ -61,7 +61,7 @@ BST有N个结点，输入每个结点的值，按输入顺序插入BST。求BST�
 
 ## 代码：
 
-[1115. Counting Nodes in a BST (30).cpp](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/1115.%20Counting%20Nodes%20in%20a%20BST%20(30)/1115.%20Counting%20Nodes%20in%20a%20BST%20(30).cpp)
+[1115. Counting Nodes in a BST (30).cpp](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1115.%20Counting%20Nodes%20in%20a%20BST%20(30)/1115.%20Counting%20Nodes%20in%20a%20BST%20(30).cpp)
 
 ```cpp
 #include "stdafx.h"

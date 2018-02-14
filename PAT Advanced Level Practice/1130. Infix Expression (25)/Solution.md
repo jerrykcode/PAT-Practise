@@ -1,4 +1,4 @@
-# 1130. Infix Expression (25)
+﻿# 1130. Infix Expression (25)
 
 [原题地址](https://www.patest.cn/contests/pat-a-practise/1130)
 
@@ -91,7 +91,7 @@ str -1 -1
  
 ## 代码：
 
-[1130. Infix Expression (25).cpp ](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/1130.%20Infix%20Expression%20(25)/1130.%20Infix%20Expression%20(25).cpp)
+[1130. Infix Expression (25).cpp ](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1130.%20Infix%20Expression%20(25)/1130.%20Infix%20Expression%20(25).cpp)
 
 
 ```cpp

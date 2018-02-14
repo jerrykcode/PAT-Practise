@@ -76,7 +76,7 @@ N个人，输入每个人的id、父母id及所有子女的id，以及此人的�
 
 ## 代码：
 
-[1114. Family Property (25).cpp ](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/1114.%20Family%20Property%20(25)/1114.%20Family%20Property%20(25).cpp)
+[1114. Family Property (25).cpp ](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1114.%20Family%20Property%20(25)/1114.%20Family%20Property%20(25).cpp)
 
 ```cpp
 #include "stdafx.h"

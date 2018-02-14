@@ -1,4 +1,4 @@
-# 1006. Sign In and Sign Out (25)
+﻿# 1006. Sign In and Sign Out (25)
 
 
 
@@ -73,7 +73,7 @@ flag赋值为0，调用sort，排序后结构体数组下标为0的元素的登�
 
 ## 代码：
 
-[1006. Sign In and Sign Out(25).cpp](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/1006.%20Sign%20In%20and%20Sign%20Out(25)/1006.%20Sign%20In%20and%20Sign%20Out%20(25).cpp)
+[1006. Sign In and Sign Out(25).cpp](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1006.%20Sign%20In%20and%20Sign%20Out(25)/1006.%20Sign%20In%20and%20Sign%20Out%20(25).cpp)
 
 
 ```cpp

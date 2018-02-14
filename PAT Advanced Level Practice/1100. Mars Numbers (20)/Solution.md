@@ -1,4 +1,4 @@
-# 1100. Mars Numbers (20)
+﻿# 1100. Mars Numbers (20)
 
 [原题地址](https://www.patest.cn/contests/pat-a-practise/1100)
 
@@ -66,7 +66,7 @@ may
 
 ## 代码：
 
-[1100. Mars Numbers (20).cpp ](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/1100.%20Mars%20Numbers%20(20)/1100.%20Mars%20Numbers%20(20).cpp)
+[1100. Mars Numbers (20).cpp ](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1100.%20Mars%20Numbers%20(20)/1100.%20Mars%20Numbers%20(20).cpp)
 
 
 ```cpp

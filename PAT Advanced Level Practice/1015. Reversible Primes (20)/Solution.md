@@ -1,4 +1,4 @@
-# 1015. Reversible Primes (20)
+﻿# 1015. Reversible Primes (20)
 [原题地址](https://www.patest.cn/contests/pat-a-practise/1015)
 
 * 时间限制 400 ms
@@ -56,7 +56,7 @@ No
 
 ## 代码：
 
-[1015. Reversible Primes (20).cpp ](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/1015.%20Reversible%20Primes%20(20)/1015.%20Reversible%20Primes%20(20).cpp)
+[1015. Reversible Primes (20).cpp ](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1015.%20Reversible%20Primes%20(20)/1015.%20Reversible%20Primes%20(20).cpp)
 
 ```cpp
 #include "stdafx.h"
