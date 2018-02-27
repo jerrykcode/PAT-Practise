@@ -1,15 +1,15 @@
-1037. Magic Coupon (25)
+# 1037. Magic Coupon (25)
+[原题地址](https://www.patest.cn/contests/pat-a-practise/1037)
+* 时间限制 100 ms
 
-时间限制 100 ms
+* 内存限制 65536 kB
 
-内存限制 65536 kB
+* 代码长度限制 16000 B
 
-代码长度限制 16000 B
+* 判题程序 Standard 
 
-判题程序 Standard 
+* 题目作者 CHEN, Yue
 
-作者 CHEN, Yue
---------------------------------------------------------------------------------------------------
 
 
 The magic shop in Mars is offering some magic coupons. Each coupon has an integer N printed on it, 
@@ -26,41 +26,76 @@ M$12 to the shop.
 
 Each coupon and each product may be selected at most once. Your task is to get as much money back as 
 possible.
---------------------------------------------------------------------------------------------------
 
 
- Input Specification: 
+## Input Specification: 
 
 Each input file contains one test case. For each case, the first line contains the number of coupons NC, 
 followed by a line with NC coupon integers. Then the next line contains the number of products NP, followed 
-by a line with NP product values. Here 1<= NC, NP <= 105, and it is guaranteed that all the numbers will not 
-exceed 230. 
---------------------------------------------------------------------------------------------------
+by a line with NP product values. Here 1<= NC, NP <= 10^5, and it is guaranteed that all the numbers will not 
+exceed 2^30. 
 
 
- Output Specification: 
+
+## Output Specification: 
 
 For each test case, simply print in a line the maximum amount of money you can get back.
---------------------------------------------------------------------------------------------------
 
 
-Sample Input:
 
-4
-1 2 4 -1
-4
-7 6 -2 -3
+## Sample Input:  
 
-Sample Output:
+4  
+1 2 4 -1  
+4  
+7 6 -2 -3  
 
-43
---------------------------------------------------------------------------------------------------
+## Sample Output:  
 
-题意：
+43  
+
+
+## 题意：
 
 求两组整数中各选取数量相同的元素，每一对相乘的结果相加的最大和
 
-思路：
+## 思路：
 
 两组整数存储在两个数组中并对它们进行非递减排序，对小于0的对相乘，再对大于0的对相乘，这些相乘结果相加
 即可。
+
+## 代码：
+
+[1037. Magic Coupon (25).cpp ](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1037.%20Magic%20Coupon%20(25)/1037.%20Magic%20Coupon%20(25).cpp)
+
+```cpp
+#include "stdafx.h"
+#include <iostream>
+using namespace std;
+#include <algorithm>
+
+int main()
+{
+	int nc, np;
+	cin >> nc;
+	int *coupon = new int[nc];
+	for (int i = 0; i < nc; i++)
+		cin >> coupon[i];
+	cin >> np;
+	int *product = new int[np];
+	for (int i = 0; i < np; i++)
+		cin >> product[i];
+	sort(coupon, coupon + nc);
+	sort(product, product + np);
+	int i = 0, j = 0;
+	int total = 0;
+	while (i < nc && j < np && coupon[i] < 0 && product[i] < 0)
+		total += coupon[i++] * product[j++];
+	i = nc - 1;
+	j = np - 1;
+	while (i >= 0 && j >= 0 && coupon[i] > 0 && product[j] > 0)
+		total += coupon[i--] * product[j--];
+	cout << total;
+    return 0;
+}
+```
