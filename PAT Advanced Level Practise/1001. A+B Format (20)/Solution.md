@@ -49,7 +49,7 @@ The sum must be written in the standard format.
 
 ## 代码
 
-[1001. A+B Format (20).cpp ](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1001.%20A%2BB%20Format%20(20)/1001.%20A%2BB%20Format%20(20).cpp)
+[1001. A+B Format (20).cpp ](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1001.%20A%2BB%20Format%20(20)/1001.%20A%2BB%20Format%20(20).cpp)
 ```cpp
 #include "stdafx.h"
 #include <iostream>
@@ -78,7 +78,7 @@ int main()
 }
 ```
 
-[AplusBFormat1001.java](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1001.%20A%2BB%20Format%20(20)/AplusBFormat1001.java)
+[AplusBFormat1001.java](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1001.%20A%2BB%20Format%20(20)/AplusBFormat1001.java)
 
 ```Java
 import java.io.BufferedReader;

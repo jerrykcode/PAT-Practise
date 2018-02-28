@@ -56,7 +56,7 @@ Notice that there must be NO extra space at the end of each line. Please be accu
 
 ## 代码：
 
-[1002. A+B for Polynomials (25).cpp](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1002.%20A%2BB%20for%20Polynomials%20(25)/1002.%20A%2BB%20for%20Polynomials%20(25).cpp)
+[1002. A+B for Polynomials (25).cpp](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1002.%20A%2BB%20for%20Polynomials%20(25)/1002.%20A%2BB%20for%20Polynomials%20(25).cpp)
 
 
 

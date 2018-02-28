@@ -103,7 +103,7 @@ int weight[] 为每个顶点与源s的最短路径中能得到的最大的小组
 
 ## 代码：
 
- [1003. Emergency (25).cpp ](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1003.%20Emergency%20(25)/1003.%20Emergency%20(25)_3.cpp)
+ [1003. Emergency (25).cpp ](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1003.%20Emergency%20(25)/1003.%20Emergency%20(25)_3.cpp)
 
 ```cpp
 #include "stdafx.h"
