@@ -102,7 +102,7 @@ Total amount: $638.80
 
 ## 代码：
 
-[1016. Phone Bills (25)_2.cpp ](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1016.%20Phone%20Bills%20(25)/1016.%20Phone%20Bills%20(25)_2.cpp)
+[1016. Phone Bills (25)_2.cpp ](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1016.%20Phone%20Bills%20(25)/1016.%20Phone%20Bills%20(25)_2.cpp)
 
 ```cpp
 #include "stdafx.h"

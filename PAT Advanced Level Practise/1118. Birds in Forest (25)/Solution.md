@@ -1,4 +1,4 @@
-# 1118. Birds in Forest (25)
+﻿# 1118. Birds in Forest (25)
 
 [原题地址](https://www.patest.cn/contests/pat-a-practise/1118)
 
@@ -59,7 +59,7 @@ N张照片，每张输入上面的鸟的数量与每只鸟的id（1到不超过1
 
 ## 代码：
 
-[1118. Birds in Forest (25).cpp ](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1118.%20Birds%20in%20Forest%20(25)/1118.%20Birds%20in%20Forest%20(25).cpp)
+[1118. Birds in Forest (25).cpp ](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1118.%20Birds%20in%20Forest%20(25)/1118.%20Birds%20in%20Forest%20(25).cpp)
 
 ```cpp
 #include "stdafx.h"

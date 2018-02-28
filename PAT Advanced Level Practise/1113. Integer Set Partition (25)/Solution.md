@@ -1,4 +1,4 @@
-# 1113. Integer Set Partition (25)
+﻿# 1113. Integer Set Partition (25)
 
 [原题地址](https://www.patest.cn/contests/pat-a-practise/1113)
 
@@ -55,7 +55,7 @@ For each case, print in a line two numbers: |n1 - n2| and |S1 - S2|, separated b
 
 ## 代码：
 
-[1113. Integer Set Partition (25).cpp ](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1113.%20Integer%20Set%20Partition%20(25)/1113.%20Integer%20Set%20Partition%20(25).cpp)
+[1113. Integer Set Partition (25).cpp ](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1113.%20Integer%20Set%20Partition%20(25)/1113.%20Integer%20Set%20Partition%20(25).cpp)
 
 
 ```cpp

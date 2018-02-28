@@ -1,4 +1,4 @@
-# 1019. General Palindromic Number (20)
+﻿# 1019. General Palindromic Number (20)
 [原题地址](https://www.patest.cn/contests/pat-a-practise/1019)
 * 时间限制 400 ms
 
@@ -77,7 +77,7 @@ N%b存储到vector <int>中，N更新为N/b，循环直到N==0，vector中存储
 
 ## 代码：
 
-[1019. General Palindromic Number (20).cpp ](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1019.%20General%20Palindromic%20Number%20(20)/1019.%20General%20Palindromic%20Number%20(20).cpp)
+[1019. General Palindromic Number (20).cpp ](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1019.%20General%20Palindromic%20Number%20(20)/1019.%20General%20Palindromic%20Number%20(20).cpp)
 
 ```cpp
 #include "stdafx.h"

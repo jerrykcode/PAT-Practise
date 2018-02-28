@@ -71,7 +71,7 @@ N个城市，M条路，已知每条路连接的两个城市及路的长度和走
 
 ## 代码：
 
-[1030. Travel Plan (30).cpp](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1030.%20Travel%20Plan%20(30)/1030.%20Travel%20Plan%20(30).cpp)
+[1030. Travel Plan (30).cpp](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1030.%20Travel%20Plan%20(30)/1030.%20Travel%20Plan%20(30).cpp)
 
 
 ```cpp

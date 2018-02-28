@@ -1,4 +1,4 @@
-# 1117. Eddington Number(25)
+﻿# 1117. Eddington Number(25)
 [原题地址](https://www.patest.cn/contests/pat-a-practise/1117)
 
 
@@ -53,7 +53,7 @@ E直接从1开始试，遍历，看大于E的数有没有E个，会超时。
 
 ## 代码：
 
-[1117. Eddington Number(25).cpp ](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1117.%20Eddington%20Number(25)/1117.%20Eddington%20Number(25)_2.cpp)
+[1117. Eddington Number(25).cpp ](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1117.%20Eddington%20Number(25)/1117.%20Eddington%20Number(25)_2.cpp)
 
 
 ```cpp

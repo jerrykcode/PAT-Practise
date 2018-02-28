@@ -75,7 +75,7 @@ BST有N个结点，序号0~N - 1，输入N行，第i行输入第i个结点的左
 
 ## 代码：
 
-[1099. Build A Binary Search Tree (30).cpp](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1099.%20Build%20A%20Binary%20Search%20Tree%20(30)/1099.%20Build%20A%20Binary%20Search%20Tree%20(30).cpp)
+[1099. Build A Binary Search Tree (30).cpp](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1099.%20Build%20A%20Binary%20Search%20Tree%20(30)/1099.%20Build%20A%20Binary%20Search%20Tree%20(30).cpp)
 
 ```cpp
 #include "stdafx.h"

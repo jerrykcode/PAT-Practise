@@ -1,4 +1,4 @@
-# 1024. Palindromic Number (25)
+﻿# 1024. Palindromic Number (25)
 [原题地址](https://www.patest.cn/contests/pat-a-practise/1024)
 * 时间限制 400 ms
 
@@ -83,7 +83,7 @@ and K instead.
 
 ## 代码：
 
-[1024. Palindromic Number (25).cpp ](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1024.%20Palindromic%20Number%20(25)/1024.%20Palindromic%20Number%20(25).cpp)
+[1024. Palindromic Number (25).cpp ](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1024.%20Palindromic%20Number%20(25)/1024.%20Palindromic%20Number%20(25).cpp)
 
 ```cpp
 #include "stdafx.h"

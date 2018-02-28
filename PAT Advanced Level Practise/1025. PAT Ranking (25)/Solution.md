@@ -1,4 +1,4 @@
-# 1025. PAT Ranking (25)
+﻿# 1025. PAT Ranking (25)
 [原题地址](https://www.patest.cn/contests/pat-a-practise/1025)
 * 时间限制 200 ms
 
@@ -89,7 +89,7 @@ of their registration numbers.
 ## 代码：
 
 
-[1025. PAT Ranking (25).cpp ](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1025.%20PAT%20Ranking%20(25)/1025.%20PAT%20Ranking%20(25).cpp)
+[1025. PAT Ranking (25).cpp ](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1025.%20PAT%20Ranking%20(25)/1025.%20PAT%20Ranking%20(25).cpp)
 
 
 ```cpp

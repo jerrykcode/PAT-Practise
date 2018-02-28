@@ -1,4 +1,4 @@
-# 1023. Have Fun with Numbers (20)
+﻿# 1023. Have Fun with Numbers (20)
 [原题地址](https://www.patest.cn/contests/pat-a-practise/1023)
 * 时间限制 400 ms
 
@@ -57,7 +57,7 @@ Yes
 跳出循环，最后输出result
 
 ## 代码：
-[1023. Have Fun with Numbers (20).cpp ](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1023.%20Have%20Fun%20with%20Numbers%20(20)/1023.%20Have%20Fun%20with%20Numbers%20(20).cpp)
+[1023. Have Fun with Numbers (20).cpp ](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1023.%20Have%20Fun%20with%20Numbers%20(20)/1023.%20Have%20Fun%20with%20Numbers%20(20).cpp)
 
 ```cpp
 #include "stdafx.h"

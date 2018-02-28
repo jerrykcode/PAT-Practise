@@ -1,4 +1,4 @@
-# 1036. Boys vs Girls (25)
+﻿# 1036. Boys vs Girls (25)
 [ 原题地址](https://www.patest.cn/contests/pat-a-practise/1036)
 
 * 时间限制 400 ms
@@ -76,7 +76,7 @@ id，第二行输出男生中分数最低的学生的姓名与id，最后输出�
 
 
 ##  代码：
-[1036. Boys vs Girls (25).cpp](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1036.%20Boys%20vs%20Girls%20(25)/1036.%20Boys%20vs%20Girls%20(25).cpp)
+[1036. Boys vs Girls (25).cpp](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1036.%20Boys%20vs%20Girls%20(25)/1036.%20Boys%20vs%20Girls%20(25).cpp)
 ```cpp
 #include "stdafx.h"
 #include <iostream>

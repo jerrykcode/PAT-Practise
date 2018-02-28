@@ -1,4 +1,4 @@
-# 1035. Password (20)
+﻿# 1035. Password (20)
 [原题地址](https://www.patest.cn/contests/pat-a-practise/1035)
 
 * 时间限制 400 ms
@@ -93,7 +93,7 @@ vector<string> users存储需要替换的用户名，map<string, string> nameToP
 
 ## 代码：
 
-[1035. Password (20).cpp](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1035.%20Password%20(20)/1035.%20Password%20(20).cpp)
+[1035. Password (20).cpp](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1035.%20Password%20(20)/1035.%20Password%20(20).cpp)
 
 
 ```cpp

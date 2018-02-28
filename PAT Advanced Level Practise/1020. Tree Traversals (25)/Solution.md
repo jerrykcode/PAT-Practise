@@ -1,4 +1,4 @@
-# 1020. Tree Traversals (25)
+﻿# 1020. Tree Traversals (25)
 [原题地址](https://www.patest.cn/contests/pat-a-practise/1020)
 * 时间限制 400 ms
 
@@ -56,7 +56,7 @@ post设为全局变量，定义全局变量postSize = N，每次递归时post[--
 
 ## 代码：
 
-[1020. Tree Traversals (25).cpp ](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1020.%20Tree%20Traversals%20(25)/1020.%20Tree%20Traversals%20(25).cpp)
+[1020. Tree Traversals (25).cpp ](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1020.%20Tree%20Traversals%20(25)/1020.%20Tree%20Traversals%20(25).cpp)
 
 
 ```cpp

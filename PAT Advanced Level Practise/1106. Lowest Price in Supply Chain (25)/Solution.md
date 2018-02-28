@@ -1,4 +1,4 @@
-# 1106. Lowest Price in Supply Chain (25)
+﻿# 1106. Lowest Price in Supply Chain (25)
 [原题地址](https://www.patest.cn/contests/pat-a-practise/1106)
 
 
@@ -66,7 +66,7 @@ Sample Input:
 
 ## 代码：
 
-[1106. Lowest Price in Supply Chain (25).cpp ](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1106.%20Lowest%20Price%20in%20Supply%20Chain%20(25)/1106.%20Lowest%20Price%20in%20Supply%20Chain%20(25).cpp)
+[1106. Lowest Price in Supply Chain (25).cpp ](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1106.%20Lowest%20Price%20in%20Supply%20Chain%20(25)/1106.%20Lowest%20Price%20in%20Supply%20Chain%20(25).cpp)
 
 
 ```cpp

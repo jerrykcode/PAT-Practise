@@ -61,7 +61,7 @@ For each test case you should output the median of the two given sequences in a 
 
 ## 代码：
 
-[1029. Median (25).cpp](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1029.%20Median%20(25)/1029.%20Median%20(25).cpp)
+[1029. Median (25).cpp](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1029.%20Median%20(25)/1029.%20Median%20(25).cpp)
 
 ```cpp
 #include "stdafx.h"

@@ -1,4 +1,4 @@
-# 1034. Head of a Gang (30)
+﻿# 1034. Head of a Gang (30)
 
 [原题地址](https://www.patest.cn/contests/pat-a-practise/1034)
 
@@ -81,7 +81,7 @@ BFS求连通分量
 ## 代码：
 
 
-[1034. Head of a Gang (30).cpp](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1034.%20Head%20of%20a%20Gang%20(30)/1034.%20Head%20of%20a%20Gang%20(30)_4.cpp)
+[1034. Head of a Gang (30).cpp](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1034.%20Head%20of%20a%20Gang%20(30)/1034.%20Head%20of%20a%20Gang%20(30)_4.cpp)
 
 
 ```cpp

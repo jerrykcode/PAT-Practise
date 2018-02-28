@@ -1,4 +1,4 @@
-# 1129. Recommendation System (25)
+﻿# 1129. Recommendation System (25)
 
 [原题地址](https://www.patest.cn/contests/pat-a-practise/1129)
 
@@ -67,7 +67,7 @@ set会自动排序，故可建立结构体存储一个查询数字的数字与�
 
 ## 代码：
 
-[1129. Recommendation System (25).cpp ](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1129.%20Recommendation%20System%20(25)/1129.%20Recommendation%20System%20(25).cpp)
+[1129. Recommendation System (25).cpp ](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1129.%20Recommendation%20System%20(25)/1129.%20Recommendation%20System%20(25).cpp)
 
 ```cpp
 #include "stdafx.h"

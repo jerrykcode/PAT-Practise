@@ -49,7 +49,7 @@ one five
 
 ## 代码：
 
-[1005. Spell It Right (20).cpp](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1005.%20Spell%20It%20Right%20(20)/1005.%20Spell%20It%20Right%20(20)_2.cpp)
+[1005. Spell It Right (20).cpp](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1005.%20Spell%20It%20Right%20(20)/1005.%20Spell%20It%20Right%20(20)_2.cpp)
 
 ```cpp
 #include "stdafx.h"

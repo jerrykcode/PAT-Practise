@@ -1,4 +1,4 @@
-# 1116. Come on! Let's C (20)
+﻿# 1116. Come on! Let's C (20)
 
 [原题地址](https://www.patest.cn/contests/pat-a-practise/1116)
 
@@ -72,7 +72,7 @@ N个参赛的人，输入N行，第i行为第i名的id（i从1开始，id有4个
 ## 代码：
 
 
-[1116. Come on! Let's C (20).cpp](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1116.%20Come%20on!%20Let's%20C%20(20)/1116.%20Come%20on!%20Let's%20C%20(20).cpp)
+[1116. Come on! Let's C (20).cpp](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1116.%20Come%20on!%20Let's%20C%20(20)/1116.%20Come%20on!%20Let's%20C%20(20).cpp)
 
 
 ```cpp

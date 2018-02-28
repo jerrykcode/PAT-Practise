@@ -1,4 +1,4 @@
-# 1107. Social Clusters (30)
+﻿# 1107. Social Clusters (30)
 
 [原题地址](https://www.patest.cn/contests/pat-a-practise/1107)
 
@@ -62,7 +62,7 @@ int数组S，下标表示人的id，存储的值为并查集中此人的父结�
 
 ## 代码：
 
-[1107. Social Clusters (30).cpp](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1107.%20Social%20Clusters%20(30)/1107.%20Social%20Clusters%20(30).cpp)
+[1107. Social Clusters (30).cpp](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1107.%20Social%20Clusters%20(30)/1107.%20Social%20Clusters%20(30).cpp)
 
 ```cpp
 #include "stdafx.h"

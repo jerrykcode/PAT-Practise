@@ -86,7 +86,7 @@ int 数组 list 存储序列。若 list[0] ~ list[i - 1] 均小于 list[i] 而 l
 
 ## 代码：
 
-[1101. Quick Sort (25)_2.cpp ](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1101.%20Quick%20Sort%20(25)/1101.%20Quick%20Sort%20(25)_2.cpp)
+[1101. Quick Sort (25)_2.cpp ](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1101.%20Quick%20Sort%20(25)/1101.%20Quick%20Sort%20(25)_2.cpp)
 
 ```cpp
 #include "stdafx.h"

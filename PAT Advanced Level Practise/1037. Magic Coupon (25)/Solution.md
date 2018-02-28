@@ -1,4 +1,4 @@
-# 1037. Magic Coupon (25)
+﻿# 1037. Magic Coupon (25)
 [原题地址](https://www.patest.cn/contests/pat-a-practise/1037)
 * 时间限制 100 ms
 
@@ -66,7 +66,7 @@ For each test case, simply print in a line the maximum amount of money you can g
 
 ## 代码：
 
-[1037. Magic Coupon (25).cpp ](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1037.%20Magic%20Coupon%20(25)/1037.%20Magic%20Coupon%20(25).cpp)
+[1037. Magic Coupon (25).cpp ](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1037.%20Magic%20Coupon%20(25)/1037.%20Magic%20Coupon%20(25).cpp)
 
 ```cpp
 #include "stdafx.h"

@@ -72,7 +72,7 @@ For each of the K cities, output in a line the number of highways need to be rep
 
 ## 代码：
 
-[1013. Battle Over Cities(25).cpp](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1013.%20Battle%20Over%20Cities%20(25)/1013.%20Battle%20Over%20Cities%20(25).cpp)
+[1013. Battle Over Cities(25).cpp](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1013.%20Battle%20Over%20Cities%20(25)/1013.%20Battle%20Over%20Cities%20(25).cpp)
 
 ```cpp
 #include "stdafx.h"

@@ -1,4 +1,4 @@
-# 1105. Spiral Matrix (25)
+﻿# 1105. Spiral Matrix (25)
 
 [原题地址](https://www.patest.cn/contests/pat-a-practise/1105)
 
@@ -90,7 +90,7 @@ for (int k = 0; k < m*n; k++) {
 ## 代码：
 
 
-[1105. Spiral Matrix (25).cpp](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1105.%20Spiral%20Matrix%20(25)/1105.%20Spiral%20Matrix%20(25).cpp)
+[1105. Spiral Matrix (25).cpp](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1105.%20Spiral%20Matrix%20(25)/1105.%20Spiral%20Matrix%20(25).cpp)
 
 
 ```cpp

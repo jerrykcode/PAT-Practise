@@ -55,7 +55,7 @@ For each test case, print the total time on a single line.
 
 ## 代码：
 
-[1008. Elevator (20).cpp ](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1008.%20Elevator%20(20)/1008.%20Elevator%20(20).cpp)
+[1008. Elevator (20).cpp ](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1008.%20Elevator%20(20)/1008.%20Elevator%20(20).cpp)
 
 ```cpp
 #include "stdafx.h"

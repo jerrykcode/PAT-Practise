@@ -1,4 +1,4 @@
-# 1031. Hello World for U (20)
+﻿# 1031. Hello World for U (20)
 [原题地址](https://www.patest.cn/contests/pat-a-practise/1031)
 * 时间限制 400 ms
 
@@ -64,7 +64,7 @@ for (int i = 3; i <= n; i++) 若n2 = i，则n1 = n3 = (n + 2 - i) / 2，若此�
 
 ## 代码：
 
-[1031. Hello World for U (20).cpp](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1031.%20Hello%20World%20for%20U%20(20)/1031.%20Hello%20World%20for%20U%20(20)_2.cpp)
+[1031. Hello World for U (20).cpp](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1031.%20Hello%20World%20for%20U%20(20)/1031.%20Hello%20World%20for%20U%20(20)_2.cpp)
 
 ```cpp
 #include "stdafx.h"

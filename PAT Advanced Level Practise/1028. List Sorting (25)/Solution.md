@@ -1,4 +1,4 @@
-# 1028. List Sorting (25)
+﻿# 1028. List Sorting (25)
 [原题地址](https://www.patest.cn/contests/pat-a-practise/1028)
 * 时间限制 200 ms
 
@@ -97,7 +97,7 @@ C = 3则按分数非递减顺序输出，(若姓名或分数相同则按id的递
 ## 代码：
 
 
-[1028. List Sorting (25).cpp ](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1028.%20List%20Sorting%20(25)/1028.%20List%20Sorting%20(25).cpp)
+[1028. List Sorting (25).cpp ](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1028.%20List%20Sorting%20(25)/1028.%20List%20Sorting%20(25).cpp)
 
 
 ```cpp

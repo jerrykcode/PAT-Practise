@@ -1,4 +1,4 @@
-# 1104. Sum of Number Segments (20)
+﻿# 1104. Sum of Number Segments (20)
 
 [原题地址](https://www.patest.cn/contests/pat-a-practise/1104)
 
@@ -41,7 +41,7 @@ For each test case, print in one line the sum of all the numbers in all the segm
 
 ## 代码：
 
-[1104. Sum of Number Segments (20).cpp](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1104.%20Sum%20of%20Number%20Segments%20(20)/1104.%20Sum%20of%20Number%20Segments%20(20).cpp)
+[1104. Sum of Number Segments (20).cpp](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1104.%20Sum%20of%20Number%20Segments%20(20)/1104.%20Sum%20of%20Number%20Segments%20(20).cpp)
 
 
 ```cpp

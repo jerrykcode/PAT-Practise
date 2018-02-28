@@ -1,4 +1,4 @@
-# 1022. Digital Library (30)
+﻿# 1022. Digital Library (30)
 [原题地址](https://www.patest.cn/contests/pat-a-practise/1022)
 * 时间限制 1000 ms
 
@@ -126,7 +126,7 @@ N本书，每本给出id、书名、作者、关键词（一个或多个）、�
 
 
 ## 代码：
-[1022. Digital Library (30)_2.cpp ](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1022.%20Digital%20Library%20(30)/1022.%20Digital%20Library%20(30)_2.cpp)
+[1022. Digital Library (30)_2.cpp ](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1022.%20Digital%20Library%20(30)/1022.%20Digital%20Library%20(30)_2.cpp)
 
 ```cpp
 #include "stdafx.h"

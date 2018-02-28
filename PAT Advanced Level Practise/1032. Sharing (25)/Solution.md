@@ -1,4 +1,4 @@
-# 1032. Sharing (25)
+﻿# 1032. Sharing (25)
 [原题地址](https://www.patest.cn/contests/pat-a-practise/1032)
 * 时间限制 100 ms
 
@@ -101,7 +101,7 @@ have no common suffix, output "-1" instead.
 
 ## 代码：
 
-[1032. Sharing (25).cpp ](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1032.%20Sharing%20(25)/1032.%20Sharing%20(25)_2.cpp)
+[1032. Sharing (25).cpp ](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1032.%20Sharing%20(25)/1032.%20Sharing%20(25)_2.cpp)
 
 ```cpp
 #include "stdafx.h"

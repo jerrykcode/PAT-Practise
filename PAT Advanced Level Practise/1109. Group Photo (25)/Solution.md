@@ -1,4 +1,4 @@
-# 1109. Group Photo (25)
+﻿# 1109. Group Photo (25)
 
 [原题地址](https://www.patest.cn/contests/pat-a-practise/1109)
 
@@ -67,7 +67,7 @@ N个人排成K排照相，每排n/k(取整数部分)人，若有多出的人则�
 
 ## 代码：
 
-[1109. Group Photo (25).cpp ](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1109.%20Group%20Photo%20(25)/1109.%20Group%20Photo%20(25).cpp)
+[1109. Group Photo (25).cpp ](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1109.%20Group%20Photo%20(25)/1109.%20Group%20Photo%20(25).cpp)
 ```cpp
 #include "stdafx.h"
 #include <iostream>

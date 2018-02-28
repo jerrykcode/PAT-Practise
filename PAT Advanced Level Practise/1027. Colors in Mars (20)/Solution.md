@@ -1,4 +1,4 @@
-# 1027. Colors in Mars (20)
+﻿# 1027. Colors in Mars (20)
 [原题地址](https://www.patest.cn/contests/pat-a-practise/1027)
 * 时间限制 400 ms
 
@@ -56,7 +56,7 @@ If a single color is only 1-digit long, you must print a "0" to the left.
 
 ## 代码：
 
-[1027. Colors in Mars (20).cpp ](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1027.%20Colors%20in%20Mars%20(20)/1027.%20Colors%20in%20Mars%20(20).cpp)
+[1027. Colors in Mars (20).cpp ](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1027.%20Colors%20in%20Mars%20(20)/1027.%20Colors%20in%20Mars%20(20).cpp)
 
 ```cpp
 #include "stdafx.h"

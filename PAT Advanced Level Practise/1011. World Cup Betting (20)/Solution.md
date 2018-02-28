@@ -73,7 +73,7 @@ T T W 37.98
 
 ## 代码：
 
-[1011. World Cup Betting (20).cpp ](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1011.%20World%20Cup%20Betting%20(20)/1011.%20World%20Cup%20Betting%20(20).cpp)
+[1011. World Cup Betting (20).cpp ](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1011.%20World%20Cup%20Betting%20(20)/1011.%20World%20Cup%20Betting%20(20).cpp)
 
 ```cpp
 #include "stdafx.h"

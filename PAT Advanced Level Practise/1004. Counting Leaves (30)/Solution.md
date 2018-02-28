@@ -70,7 +70,7 @@ count归0，Tail赋值给Last（即下一层的最后元素）
 
 ## 代码：
 
-[1004. Counting Leaves (30).cpp](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1004.%20Counting%20Leaves%20(30)/1004.%20Counting%20Leaves%20(30).cpp)
+[1004. Counting Leaves (30).cpp](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1004.%20Counting%20Leaves%20(30)/1004.%20Counting%20Leaves%20(30).cpp)
 
 ```cpp
 #include "stdafx.h"

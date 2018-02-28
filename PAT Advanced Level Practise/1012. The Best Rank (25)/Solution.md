@@ -94,7 +94,7 @@ int rank[4]存储4科目的排名（0，1，2，3分别为A、C、M、E），建
 
 ## 代码：
 
-[1012. The Best Rank (25)_2.cpp](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1012.%20The%20Best%20Rank%20(25)/1012.%20The%20Best%20Rank%20(25)_2.cpp)
+[1012. The Best Rank (25)_2.cpp](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1012.%20The%20Best%20Rank%20(25)/1012.%20The%20Best%20Rank%20(25)_2.cpp)
 
 ```cpp
 #include "stdafx.h"

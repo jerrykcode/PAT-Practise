@@ -71,7 +71,7 @@ Impossible
 ## 代码：
 
 
-[1103. Integer Factorization (30)_2.cpp ](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1103.%20Integer%20Factorization%20(30)/1103.%20Integer%20Factorization%20(30)_2.cpp)
+[1103. Integer Factorization (30)_2.cpp ](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1103.%20Integer%20Factorization%20(30)/1103.%20Integer%20Factorization%20(30)_2.cpp)
 
 
 ```cpp

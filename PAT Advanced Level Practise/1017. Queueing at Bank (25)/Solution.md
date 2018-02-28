@@ -83,7 +83,7 @@ total表示所有客户等待时间总和，count表示到达时间小于17:00:0
 ## 代码：
 
 
-[1017. Queueing at Bank (25).cpp](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1017.%20Queueing%20at%20Bank%20(25)/1017.%20Queueing%20at%20Bank%20(25).cpp)
+[1017. Queueing at Bank (25).cpp](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1017.%20Queueing%20at%20Bank%20(25)/1017.%20Queueing%20at%20Bank%20(25).cpp)
 ```cpp
 #include "stdafx.h"
 #include <iostream>

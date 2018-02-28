@@ -1,4 +1,4 @@
-# 1038. Recover the Smallest Number (30)
+﻿# 1038. Recover the Smallest Number (30)
 [原题地址](https://www.patest.cn/contests/pat-a-practise/1038)
 * 时间限制 400 ms
 
@@ -58,7 +58,7 @@ For each test case, print the smallest number in one line. Do not output leading
 
 ## 代码：
 
-[1038. Recover the Smallest Number (30).cpp ](https://github.com/jerrykcode/PAT-Advanced-Level-Practise/blob/master/PAT%20Advanced%20Level%20Practice/1038.%20Recover%20the%20Smallest%20Number%20(30)/1038.%20Recover%20the%20Smallest%20Number%20(30).cpp)
+[1038. Recover the Smallest Number (30).cpp ](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1038.%20Recover%20the%20Smallest%20Number%20(30)/1038.%20Recover%20the%20Smallest%20Number%20(30).cpp)
 
 ```cpp
 #include "stdafx.h"
