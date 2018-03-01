@@ -1,6 +1,7 @@
-# 1122. Hamiltonian Cycle (25)
+﻿# 1122. Hamiltonian Cycle (25)
 
 
+[原题地址](https://www.patest.cn/contests/pat-a-practise/1122)
 
 * 时间限制 300 ms
 
