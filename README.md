@@ -1,4 +1,4 @@
-# PAT-Practise 
+﻿# PAT-Practise 
 
 
 
@@ -100,7 +100,7 @@
 |[1090. Highest Price in Supply Chain (25)](https://www.patest.cn/contests/pat-a-practise/1090)|[C++](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1090.%20Highest%20Price%20in%20Supply%20Chain%20(25)/1090.%20Highest%20Price%20in%20Supply%20Chain%20(25).cpp)|[Solution](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1090.%20Highest%20Price%20in%20Supply%20Chain%20(25)/Solution.md)|
 |[1091. Acute Stroke (30)](https://www.patest.cn/contests/pat-a-practise/1091)|[C++](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1091.%20Acute%20Stroke%20(30)/1091.%20Acute%20Stroke%20(30).cpp)|[Solution](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1091.%20Acute%20Stroke%20(30)/Solution.md)|
 |[1092. To Buy or Not to Buy (20)](https://www.patest.cn/contests/pat-a-practise/1092)|[C++](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1092.%20To%20Buy%20or%20Not%20to%20Buy%20(20)/1092.%20To%20Buy%20or%20Not%20to%20Buy%20(20).cpp)|[Solution](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1092.%20To%20Buy%20or%20Not%20to%20Buy%20(20)/Solution.md)|
-|[1093. Count PAT's (25)](https://www.patest.cn/contests/pat-a-practise/1093)|-|-|
+|[1093. Count PAT's (25)](https://www.patest.cn/contests/pat-a-practise/1093)|[C++](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1093.%20Count%20PAT's%20(25)/1093.%20Count%20PAT's%20(25).cpp)|[Solution](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1093.%20Count%20PAT's%20(25)/Solution.md)|
 |[1094. The Largest Generation (25)](https://www.patest.cn/contests/pat-a-practise/1094)|[C++](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1094.%20The%20Largest%20Generation%20(25)/1094.%20The%20Largest%20Generation%20(25).cpp)|[Solution](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1094.%20The%20Largest%20Generation%20(25)/Solution.md)|
 |[1095. Cars on Campus (30)](https://www.patest.cn/contests/pat-a-practise/1095)|[C++](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1095.%20Cars%20on%20Campus%20(30)/1095.%20Cars%20on%20Campus%20(30).cpp)|[Solution](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1095.%20Cars%20on%20Campus%20(30)/Solution.md)|
 |[1096. Consecutive Factors (20)](https://www.patest.cn/contests/pat-a-practise/1096)|-|-|
