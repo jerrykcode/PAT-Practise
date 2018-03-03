@@ -36,7 +36,7 @@ where data is a string of no more than 10 characters, left_child and right_child
  
 
 
-![Figure 1 ](http://nos.patest.cn/nh_ol5yyz6cr02.JPG)   ![Figure 2 ](http://nos.patest.cn/nh_ol5yyackpi3.JPG)
+![Figure 1 ](https://raw.githubusercontent.com/jerrykcode/PAT-Practise/master/images/1130_1.jpg)   ![Figure 2 ](https://raw.githubusercontent.com/jerrykcode/PAT-Practise/master/images/1130_2.jpg)
 
 
 

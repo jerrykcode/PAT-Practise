@@ -31,7 +31,7 @@ and only those with their volumes no less than T are counted. Two pixels are "co
 to the same region if they share a common side, as shown by Figure 1 where all the 6 red pixels are connected 
 to the blue one. 
 
-![Figure 1](http://nos.patest.cn/g0_nf8qpnrr0f1.jpg)
+![Figure 1](https://raw.githubusercontent.com/jerrykcode/PAT-Practise/master/images/1091.jpg)
 				
 
 

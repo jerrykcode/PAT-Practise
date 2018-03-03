@@ -20,7 +20,7 @@ Given the structure of a binary tree and a sequence of distinct integer keys, th
 these keys into the tree so that the resulting tree satisfies the definition of a BST. You are supposed to 
 output the level order traversal sequence of that tree. The sample is illustrated by Figure 1 and 2. 
 
-![Figure1 & Figure2](http://nos.patest.cn/h8_nkqjeu5lglo.jpg)
+![Figure1 & Figure2](https://raw.githubusercontent.com/jerrykcode/PAT-Practise/master/images/1099.jpg)
 
 
 

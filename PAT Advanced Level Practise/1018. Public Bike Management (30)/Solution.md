@@ -21,7 +21,7 @@ adjusted as well.
 
 When a problem station is reported, PBMC will always choose the shortest path to reach that station. If there are 
 more than one shortest path, the one that requires the least number of bikes sent from PBMC will be chosen.
-![Figure 1](http://nos.patest.cn/11_lrrk0m5o4kg.jpg)
+![Figure 1](https://raw.githubusercontent.com/jerrykcode/PAT-Practise/master/images/1018.jpg)
 *Figure 1*
 
 Figure 1 illustrates an example. The stations are represented by vertices and the roads correspond to the edges. 

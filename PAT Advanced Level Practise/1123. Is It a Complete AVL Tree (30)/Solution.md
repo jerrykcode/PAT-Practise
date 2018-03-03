@@ -1,4 +1,4 @@
-# 1123. Is It a Complete AVL Tree (30)
+﻿# 1123. Is It a Complete AVL Tree (30)
 [原题地址](https://www.patest.cn/contests/pat-a-practise/1123)
 
 
@@ -22,13 +22,13 @@
 
 An AVL tree is a self-balancing binary search tree. In an AVL tree, the heights of the two child subtrees of any node differ by at most one; if at any time they differ by more than one, rebalancing is done to restore this property. Figures 1-4 illustrate the rotation rules.
 
-![](http://nos.patest.cn/mr_ohesevgnyny.jpg)
+![](https://raw.githubusercontent.com/jerrykcode/PAT-Practise/master/images/1123_1.jpg)
 
-![](http://nos.patest.cn/mr_ohesfdbkaep.jpg)
+![](https://raw.githubusercontent.com/jerrykcode/PAT-Practise/master/images/1123_2.jpg)
 
-![](http://nos.patest.cn/mr_oheseymzi13.jpg)
+![](https://raw.githubusercontent.com/jerrykcode/PAT-Practise/master/images/1123_3.jpg)
 
-![](http://nos.patest.cn/mr_ohesfjddti2.jpg)
+![](https://raw.githubusercontent.com/jerrykcode/PAT-Practise/master/images/1123_4.jpg)
     
 
 Now given a sequence of insertions, you are supposed to output the level-order traversal sequence of the resulting AVL tree, and to tell if it is a complete binary tree.

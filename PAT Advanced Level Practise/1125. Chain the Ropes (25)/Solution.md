@@ -22,7 +22,7 @@
 
 Given some segments of rope, you are supposed to chain them into one rope. Each time you may only fold two segments into loops and chain them into one piece, as shown by the figure. The resulting chain will be treated as another segment of rope and can be folded again. After each chaining, the lengths of the original two segments will be halved. 
 
-![](http://nos.patest.cn/na_ol5x4jo19qm.jpg)
+![](https://raw.githubusercontent.com/jerrykcode/PAT-Practise/master/images/1125.jpg)
 
 
 Your job is to make the longest possible rope out of N given segments. 
