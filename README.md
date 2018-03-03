@@ -134,7 +134,7 @@
 |[1124. Raffle for Weibo Followers (20)](https://www.patest.cn/contests/pat-a-practise/1124)|-|-|
 |[1125. Chain the Ropes (25)](https://www.patest.cn/contests/pat-a-practise/1125)|-|-|
 |[1126. Eulerian Path (25)](https://www.patest.cn/contests/pat-a-practise/1126)|-|-|
-|[1127. ZigZagging on a Tree (30)](https://www.patest.cn/contests/pat-a-practise/1127)|-|-|
+|[1127. ZigZagging on a Tree (30)](https://www.patest.cn/contests/pat-a-practise/1127)|[C++](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1127.%20ZigZagging%20on%20a%20Tree%20(30)/1127.%20ZigZagging%20on%20a%20Tree%20(30).cpp)|[Solution](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1127.%20ZigZagging%20on%20a%20Tree%20(30)/Solution.md)|
 |[1128. N Queens Puzzle (20)](https://www.patest.cn/contests/pat-a-practise/1128)|-|-|
 |[1129. Recommendation System (25)](https://www.patest.cn/contests/pat-a-practise/1129)|[C++](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1129.%20Recommendation%20System%20(25)/1129.%20Recommendation%20System%20(25).cpp)|[Solution](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1129.%20Recommendation%20System%20(25)/Solution.md)|
 |[1130. Infix Expression (25)](https://www.patest.cn/contests/pat-a-practise/1130)|[C++](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1130.%20Infix%20Expression%20(25)/1130.%20Infix%20Expression%20(25).cpp)|[Solution](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1130.%20Infix%20Expression%20(25)/Solution.md)|
