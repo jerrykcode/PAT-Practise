@@ -1,4 +1,4 @@
-# 1125. Chain the Ropes (25)
+﻿# 1125. Chain the Ropes (25)
 
 [原题地址](https://www.patest.cn/contests/pat-a-practise/1125)
 
