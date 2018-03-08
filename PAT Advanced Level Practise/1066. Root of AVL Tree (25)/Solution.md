@@ -22,7 +22,7 @@ is done to restore this property. Figures 1-4 illustrate the rotation rules.
 ![](https://raw.githubusercontent.com/jerrykcode/PAT-Practise/master/images/1066_2.jpg)
 *Figure 2*
 		
-![](https://raw.githubusercontent.com/jerrykcode/PAT-Practise/master/images/1066_3.jpgg)
+![](https://raw.githubusercontent.com/jerrykcode/PAT-Practise/master/images/1066_3.jpg)
 *Figure 3*
 		
 ![](https://raw.githubusercontent.com/jerrykcode/PAT-Practise/master/images/1066_4.jpg)
