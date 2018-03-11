@@ -143,7 +143,7 @@
 |[1133. Splitting A Linked List (25)](https://www.patest.cn/contests/pat-a-practise/1133)|-|-|
 |[1134. Vertex Cover (25)](https://www.patest.cn/contests/pat-a-practise/1134)|-|-|
 |[1135. Is It A Red-Black Tree (30)](https://www.patest.cn/contests/pat-a-practise/1135)|-|-|
-|[1136. A Delayed Palindrome (20)](https://www.patest.cn/contests/pat-a-practise/1136)|-|-|
+|[1136. A Delayed Palindrome (20)](https://www.patest.cn/contests/pat-a-practise/1136)|[C++](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1136.%20A%20Delayed%20Palindrome%20(20)/1136.%20A%20Delayed%20Palindrome%20(20).cpp)|[Solution](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1136.%20A%20Delayed%20Palindrome%20(20)/Solution.md)|
 |[1137. Final Grading (25)](https://www.patest.cn/contests/pat-a-practise/1137)|-|-|
 |[1138. Postorder Traversal (25)](https://www.patest.cn/contests/pat-a-practise/1138)|-|-|
 |[1139. First Contact (30)](https://www.patest.cn/contests/pat-a-practise/1139)|-|-|
