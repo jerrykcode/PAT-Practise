@@ -1,10 +1,17 @@
 # 1078. Hashing (25)
+
 [原题地址](https://www.patest.cn/contests/pat-a-practise/1078)
+
 * 时间限制 100 ms
+
 * 内存限制 65536 kB
+
 * 代码长度限制 16000 B
+
 * 判题程序 Standard
+
 * 题目作者 CHEN, Yue
+
 The task of this problem is simple: insert a sequence of distinct positive integers into a hash table, and output the positions of the input numbers. The hash function is defined to be "H(key) = key % TSize" where TSize is the maximum size of the hash table. Quadratic probing (with positive increments only) is used to solve the collisions.
 
 Note that the table size is better to be prime. If the maximum size given by the user is not prime, you must re-define the table size to be the smallest prime number which is larger than the size given by the user.
@@ -28,6 +35,7 @@ For each test case, print the corresponding positions (index starts from 0) of t
 散列表,平方探测法
 
 ## 代码: 
+
 [1078. Hashing (25).cpp](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1078.%20Hashing%20(25)/1078.%20Hashing%20(25).cpp)
 ```cpp
 #include <iostream>
