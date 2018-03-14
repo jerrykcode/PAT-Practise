@@ -1,16 +1,16 @@
-# 1078. Hashing (25)
+ï»¿# 1078. Hashing (25)
 
-[Ô­ÌâµØÖ·](https://www.patest.cn/contests/pat-a-practise/1078)
+[åŸé¢˜åœ°å€](https://www.patest.cn/contests/pat-a-practise/1078)
 
-* Ê±¼äÏŞÖÆ 100 ms
+* æ—¶é—´é™åˆ¶ 100 ms
 
-* ÄÚ´æÏŞÖÆ 65536 kB
+* å†…å­˜é™åˆ¶ 65536 kB
 
-* ´úÂë³¤¶ÈÏŞÖÆ 16000 B
+* ä»£ç é•¿åº¦é™åˆ¶ 16000 B
 
-* ÅĞÌâ³ÌĞò Standard
+* åˆ¤é¢˜ç¨‹åº Standard
 
-* ÌâÄ¿×÷Õß CHEN, Yue
+* é¢˜ç›®ä½œè€… CHEN, Yue
 
 
 The task of this problem is simple: insert a sequence of distinct positive integers into a hash table, and output the positions of the input numbers. The hash function is defined to be "H(key) = key % TSize" where TSize is the maximum size of the hash table. Quadratic probing (with positive increments only) is used to solve the collisions.
@@ -31,11 +31,11 @@ For each test case, print the corresponding positions (index starts from 0) of t
 ## Sample Output:
 0 1 4 -  
 
-## ÌâÒâÓëË¼Â·: 
+## é¢˜æ„ä¸æ€è·¯: 
 
-É¢ÁĞ±í,Æ½·½Ì½²â·¨
+æ•£åˆ—è¡¨,å¹³æ–¹æ¢æµ‹æ³•
 
-## ´úÂë: 
+## ä»£ç : 
 
 [1078. Hashing (25).cpp](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1078.%20Hashing%20(25)/1078.%20Hashing%20(25).cpp)
 ```cpp
