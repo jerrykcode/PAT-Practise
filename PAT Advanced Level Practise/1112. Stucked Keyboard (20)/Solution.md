@@ -49,7 +49,7 @@ case1__this_isss_a_teest
 
 ## 代码：
 
-[1112. Stucked Keyboard (20).cpp](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1112.%20Stucked%20Keyboard(20)/1112.%20Stucked%20Keyboard(20).cpp)
+[1112. Stucked Keyboard (20).cpp](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1112.%20Stucked%20Keyboard%20(20)/1112.%20Stucked%20Keyboard%20(20).cpp)
 
 ```cpp
 #include <iostream>
