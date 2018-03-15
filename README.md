@@ -141,7 +141,7 @@
 |[1129. Recommendation System (25)](https://www.patest.cn/contests/pat-a-practise/1129)|[C++](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1129.%20Recommendation%20System%20(25)/1129.%20Recommendation%20System%20(25).cpp)|[Solution](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1129.%20Recommendation%20System%20(25)/Solution.md)|
 |[1130. Infix Expression (25)](https://www.patest.cn/contests/pat-a-practise/1130)|[C++](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1130.%20Infix%20Expression%20(25)/1130.%20Infix%20Expression%20(25).cpp)|[Solution](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1130.%20Infix%20Expression%20(25)/Solution.md)|
 |[1131. Subway Map (30)](https://www.patest.cn/contests/pat-a-practise/1131)|-|-|
-|[1132. Cut Integer (20)](https://www.patest.cn/contests/pat-a-practise/1132)|-|-|
+|[1132. Cut Integer (20)](https://www.patest.cn/contests/pat-a-practise/1132)|[C++](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1132.%20Cut%20Integer%20(20)/1132.%20Cut%20Integer%20(20).cpp)|[Solution](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1132.%20Cut%20Integer%20(20)/Solution.md)|
 |[1133. Splitting A Linked List (25)](https://www.patest.cn/contests/pat-a-practise/1133)|-|-|
 |[1134. Vertex Cover (25)](https://www.patest.cn/contests/pat-a-practise/1134)|-|-|
 |[1135. Is It A Red-Black Tree (30)](https://www.patest.cn/contests/pat-a-practise/1135)|-|-|
