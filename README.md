@@ -1,8 +1,8 @@
-﻿# PAT-Practise 
+# PAT-Practise 
 
 
 
-[PAT甲级](https://www.patest.cn/contests/pat-a-practise)题解，部分题目参考了[@liuchuo](https://github.com/liuchuo)的[PAT甲级题解目录](https://www.liuchuo.net/pat%e7%94%b2%e7%ba%a7%e9%a2%98%e8%a7%a3%e7%9b%ae%e5%bd%95) 
+[PAT甲级](https://www.patest.cn/contests/pat-a-practise)题解，部分题目参考了[@liuchuo](https://github.com/liuchuo)的[PAT甲级题解目录](https://www.liuchuo.net/pat%e7%94%b2%e7%ba%a7%e9%a2%98%e8%a7%a3%e7%9b%ae%e5%bd%95) ,以及一些网上的blog版本,具体参考地址链接在题目的Solution中
 
 ---
 
