@@ -69,7 +69,7 @@ No
 
 ## ДњТыЃК
 
-[1135. Is It A Red-Black Tree (30).cpp](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1135.%20Is%20It%20A%20Red-Black%20Tree%20(30)/1135.%20Is%20It%20A%20Red-Black%20Tree%20(30).cpp
+[1135. Is It A Red-Black Tree (30).cpp](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1135.%20Is%20It%20A%20Red-Black%20Tree%20(30)/1135.%20Is%20It%20A%20Red-Black%20Tree%20(30).cpp)
 
 ```cpp
 #include <iostream>
