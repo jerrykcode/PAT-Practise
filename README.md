@@ -2,7 +2,7 @@
 
 
 
-[PAT甲级](https://www.patest.cn/contests/pat-a-practise)题解，部分题目参考了[@liuchuo](https://github.com/liuchuo)的[PAT甲级题解目录](https://www.liuchuo.net/pat%e7%94%b2%e7%ba%a7%e9%a2%98%e8%a7%a3%e7%9b%ae%e5%bd%95) ,以及一些网上的blog版本,具体参考地址链接在题目的Solution中
+[PAT甲级](https://www.patest.cn/contests/pat-a-practise)(https://www.patest.cn/contests/pat-a-practise)题解，代码主要用`C++`实现，每题的`Solution`是较为详细的题解，包括原题、题意、思路与代码。部分题目参考了[@liuchuo](https://github.com/liuchuo)(柳婼)的网站：[PAT甲级题解目录](https://www.liuchuo.net/pat%e7%94%b2%e7%ba%a7%e9%a2%98%e8%a7%a3%e7%9b%ae%e5%bd%95) ,以及其他题解版本。
 
 ---
 
@@ -154,4 +154,5 @@
 |[1142. Maximal Clique (25)](https://www.patest.cn/contests/pat-a-practise/1142)|[C++](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1142.%20Maximal%20Clique%20(25)/1142.%20Maximal%20Clique%20(25).cpp)|[Solution](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1142.%20Maximal%20Clique%20(25)/Solution.md)|
 |[1143. Lowest Common Ancestor (30)](https://www.patest.cn/contests/pat-a-practise/1143)|[C++](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1143.%20Lowest%20Common%20Ancestor%20(30)/1143.%20Lowest%20Common%20Ancestor%20(30).cpp)/[C++](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1143.%20Lowest%20Common%20Ancestor%20(30)/1143.%20Lowest%20Common%20Ancestor%20(30)_2.cpp)|[Solution](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1143.%20Lowest%20Common%20Ancestor%20(30)/Solution.md)|
 |[1144. The Missing Number (20)](https://www.patest.cn/contests/pat-a-practise/1144)|[C++](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1144.%20The%20Missing%20Number%20(20)/1144.%20The%20Missing%20Number%20(20).cpp)|[Solution](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1144.%20The%20Missing%20Number%20(20)/Solution.md)|
+|[1145. Hashing - Average Search Time (25)](https://www.patest.cn/contests/pat-a-practise/1145)|[C++](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1145.%20Hashing%20-%20Average%20Search%20Time%20(25)/1145.%20Hashing%20-%20Average%20Search%20Time%20(25).cpp)|[Solution](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1145.%20Hashing%20-%20Average%20Search%20Time%20(25)/Solution.md)|
 |[1147. Heaps (30)](https://www.patest.cn/contests/pat-a-practise/1147)|[C++](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1147.%20Heaps%20(30)/1147.%20Heaps%20(30).cpp)|[Solution](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1147.%20Heaps%20(30)/Solution.md)|
