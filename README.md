@@ -2,7 +2,7 @@
 
 
 
-[PAT甲级](https://www.patest.cn/contests/pat-a-practise)(https://www.patest.cn/contests/pat-a-practise)题解，代码主要用`C++`实现，每题的`Solution`是较为详细的题解，包括原题、题意、思路与代码。部分题目参考了[@liuchuo](https://github.com/liuchuo)(柳婼)的网站：[PAT甲级题解目录](https://www.liuchuo.net/pat%e7%94%b2%e7%ba%a7%e9%a2%98%e8%a7%a3%e7%9b%ae%e5%bd%95) ,以及其他题解版本。
+[PAT甲级](https://www.patest.cn/contests/pat-a-practise)题解，代码主要用`C++`实现，每题的`Solution`是较为详细的题解，包括原题、题意、思路与代码。部分题目参考了[@liuchuo](https://github.com/liuchuo)(柳婼)的网站：[PAT甲级题解目录](https://www.liuchuo.net/pat%e7%94%b2%e7%ba%a7%e9%a2%98%e8%a7%a3%e7%9b%ae%e5%bd%95) ,以及其他题解版本。
 
 ---
 
