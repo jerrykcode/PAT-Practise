@@ -4,7 +4,8 @@
 
 | 序号（原题地址）  | 代码  |题解   |
 |---|---|---|
-|[1013 Image Segmentation（35 point(s)）](https://pintia.cn/problem-sets/994805148990160896/problems/994805151670321152)|[C++](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Top%20Level%20Practice/1013/1013%20Image%20Segmentation.cpp)|[Solution](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Top%20Level%20Practice/1013/Solution.md)|
+|[1013 Image Segmentation(35 point(s))](https://pintia.cn/problem-sets/994805148990160896/problems/994805151670321152)|[C++](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Top%20Level%20Practice/1013/1013%20Image%20Segmentation.cpp)|[Solution](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Top%20Level%20Practice/1013/Solution.md)|
+|[1016 Uniqueness of MST(35 point(s))](https://pintia.cn/problem-sets/994805148990160896/problems/994805150751768576)|[C++](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Top%20Level%20Practice/1016/Uniqueness%20of%20MST(35).cpp)|[Solution](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Top%20Level%20Practice/1016/Solution.md)|
 
 ## [甲级](https://pintia.cn/problem-sets/994805342720868352/problems)(https://pintia.cn/problem-sets/994805342720868352/problems)
 [PAT甲级](https://pintia.cn/problem-sets/994805342720868352/problems)题解，代码主要用`C++`实现，每题的`Solution`是较为详细的题解，包括原题、题意、思路与代码。部分题目参考了[@liuchuo](https://github.com/liuchuo)(柳婼)的网站：[PAT甲级题解目录](https://www.liuchuo.net/pat%e7%94%b2%e7%ba%a7%e9%a2%98%e8%a7%a3%e7%9b%ae%e5%bd%95) ,以及其他题解版本。
@@ -164,6 +165,6 @@
 |[1147. Heaps (30)](https://www.patest.cn/contests/pat-a-practise/1147)|[C++](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1147.%20Heaps%20(30)/1147.%20Heaps%20(30).cpp)|[Solution](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Advanced%20Level%20Practise/1147.%20Heaps%20(30)/Solution.md)|
 
 
-### PAT 100 分
+### 甲级满分
 
 ![](https://raw.githubusercontent.com/jerrykcode/PAT-Practise/master/images/pat.jpg)
