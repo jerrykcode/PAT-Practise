@@ -5,6 +5,7 @@
 | 序号（原题地址）  | 代码  |题解   |
 |---|---|---|
 |[1002 Business (35)](https://pintia.cn/problem-sets/994805148990160896/problems/994805156145643520)|[C++](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Top%20Level%20Practice/1002/1002%20Business%20(35)%20.cpp)|[Solution](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Top%20Level%20Practice/1002/Solution.md)|
+|[1003 Universal Travel Sites (35)](https://pintia.cn/problem-sets/994805148990160896/problems/994805155688464384)|[C++](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Top%20Level%20Practice/1003/Universal%20Travel%20Sites%20(35).cpp)|[Solution](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Top%20Level%20Practice/1003/Solution.md)|
 |[1013 Image Segmentation(35 point(s))](https://pintia.cn/problem-sets/994805148990160896/problems/994805151670321152)|[C++](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Top%20Level%20Practice/1013/1013%20Image%20Segmentation.cpp)|[Solution](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Top%20Level%20Practice/1013/Solution.md)|
 |[1016 Uniqueness of MST(35 point(s))](https://pintia.cn/problem-sets/994805148990160896/problems/994805150751768576)|[C++](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Top%20Level%20Practice/1016/Uniqueness%20of%20MST(35).cpp)|[Solution](https://github.com/jerrykcode/PAT-Practise/blob/master/PAT%20Top%20Level%20Practice/1016/Solution.md)|
 
