@@ -171,5 +171,4 @@
 
 ### 甲级满分
 
-![](https://raw.githubusercontent.com/jerrykcode/PAT-Practise/master/images/pat.jpg)
->>>>>>> image
+![](http://wx2.sinaimg.cn/mw690/006XXwaCgy1fy7kvgfta1j30ij0lsq42.jpg)
