@@ -14,7 +14,7 @@
 
 In the big cities, the subway systems always look so complex to the visitors. To give you some sense, the following figure shows the map of Beijing subway. Now you are supposed to help people with your computer skills! Given the starting position of your user, your task is to find the quickest way to his/her destination.
 
-![](https://raw.githubusercontent.com/jerrykcode/PAT-Practise/master/images/1131_1.jpg)
+![](http://wx4.sinaimg.cn/mw690/006XXwaCgy1fy7kr21cbsj30dw09iwi8.jpg)
 
 ## Input Specification:
 
@@ -30,7 +30,8 @@ After the description of the subway, another positive integer K (<= 10) is given
 
 The following figure shows the sample map.
 
-![](https://raw.githubusercontent.com/jerrykcode/PAT-Practise/master/images/1131_2.jpg)
+![](http://wx4.sinaimg.cn/mw690/006XXwaCgy1fy7kr980ttj30du08nwgy.jpg)
+
 
 
 Note: It is guaranteed that all the stations are reachable, and all the queries consist of legal station numbers.

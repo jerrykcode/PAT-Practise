@@ -16,12 +16,9 @@ The "eight queens puzzle" is the problem of placing eight chess queens on an 8¡Á
 Here you are NOT asked to solve the puzzles. Instead, you are supposed to judge whether or not a given configuration of the chessboard is a solution. To simplify the representation of a chessboard, let us assume that no two queens will be placed in the same column. Then a configuration can be represented by a simple integer sequence (Q1, Q2, ..., QN), where Qi is the row number of the queen in the i-th column. For example, Figure 1 can be represented by (4, 6, 8, 2, 7, 1, 3, 5) and it is indeed a solution to the 8 queens puzzle; while Figure 2 can be represented by (4, 6, 7, 2, 8, 1, 9, 5, 3) and is NOT a 9 queens' solution.
 
 
-![](https://raw.githubusercontent.com/jerrykcode/PAT-Practise/master/images/1128_1.jpg)  	
-*Figure 1*
-
-![](https://raw.githubusercontent.com/jerrykcode/PAT-Practise/master/images/1128_2.jpg)
-*Figure 2*
-
+ ![](http://wx2.sinaimg.cn/mw690/006XXwaCgy1fy7kl377i4j307c07cjt0.jpg)
+ 
+ ![](http://wx4.sinaimg.cn/mw690/006XXwaCgy1fy7kl8203dj308908aabx.jpg)
 ## Input Specification:
 
 Each input file contains several test cases. The first line gives an integer K (1 < K <= 200). Then K lines follow, each gives a configuration in the format "N Q1 Q2 ... QN", where 4 <= N <= 1000 and it is guaranteed that 1 <= Qi <= N for all i=1, ..., N. The numbers are separated by spaces.

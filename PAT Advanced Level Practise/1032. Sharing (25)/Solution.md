@@ -16,7 +16,7 @@ To store English words, one method is to use linked lists and store a word lette
 To save some space, we may let the words share the same sublist if they share the same suffix. 
 For example, "loading" and "being" are stored as showed in Figure 1.
 
-![Figure1:](https://raw.githubusercontent.com/jerrykcode/PAT-Practise/master/images/1032.jpg)
+![](http://wx3.sinaimg.cn/mw690/006XXwaCgy1fy0kexv2cqj30eq033wf3.jpg)
 *Figure 1*
 
 You are supposed to find the starting position of the common suffix (e.g. the position of "i" 

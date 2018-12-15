@@ -16,17 +16,14 @@ An AVL tree is a self-balancing binary search tree. In an AVL tree, the heights 
 subtrees of any node differ by at most one; if at any time they differ by more than one, rebalancing 
 is done to restore this property. Figures 1-4 illustrate the rotation rules.
 
-![](https://raw.githubusercontent.com/jerrykcode/PAT-Practise/master/images/1066_1.jpg)
-*Figure 1*
+ ![](http://wx2.sinaimg.cn/mw690/006XXwaCgy1fy0kf6283uj307u03x0to.jpg)
+ 
+ ![](http://wx4.sinaimg.cn/mw690/006XXwaCgy1fy0kf9ya9hj3097053wfn.jpg)
+ 
+ ![](http://wx2.sinaimg.cn/mw690/006XXwaCgy1fy0kg6j2ydj309i04ljsn.jpg)
+ 
+ ![](http://wx1.sinaimg.cn/mw690/006XXwaCgy1fy0kgaadgej30bm04h3zv.jpg)
 
-![](https://raw.githubusercontent.com/jerrykcode/PAT-Practise/master/images/1066_2.jpg)
-*Figure 2*
-		
-![](https://raw.githubusercontent.com/jerrykcode/PAT-Practise/master/images/1066_3.jpg)
-*Figure 3*
-		
-![](https://raw.githubusercontent.com/jerrykcode/PAT-Practise/master/images/1066_4.jpg)
-*Figure 4*
 
 Now given a sequence of insertions, you are supposed to tell the root of the resulting AVL tree.
 

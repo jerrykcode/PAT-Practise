@@ -22,13 +22,15 @@
 
 An AVL tree is a self-balancing binary search tree. In an AVL tree, the heights of the two child subtrees of any node differ by at most one; if at any time they differ by more than one, rebalancing is done to restore this property. Figures 1-4 illustrate the rotation rules.
 
-![](https://raw.githubusercontent.com/jerrykcode/PAT-Practise/master/images/1123_1.jpg)
+ ![](http://wx2.sinaimg.cn/mw690/006XXwaCgy1fy0lcu5o5mj307u03x0to.jpg)
+ 
+ ![](http://wx1.sinaimg.cn/mw690/006XXwaCgy1fy0kkimjclj3097053wfn.jpg)
+ 
+ ![](http://wx2.sinaimg.cn/mw690/006XXwaCgy1fy0ki7zpo5j309i04ljsn.jpg)
+ 
+ ![](http://wx1.sinaimg.cn/mw690/006XXwaCgy1fy0kkw4pzyj30bm04h3zv.jpg)
+ 
 
-![](https://raw.githubusercontent.com/jerrykcode/PAT-Practise/master/images/1123_2.jpg)
-
-![](https://raw.githubusercontent.com/jerrykcode/PAT-Practise/master/images/1123_3.jpg)
-
-![](https://raw.githubusercontent.com/jerrykcode/PAT-Practise/master/images/1123_4.jpg)
     
 
 Now given a sequence of insertions, you are supposed to output the level-order traversal sequence of the resulting AVL tree, and to tell if it is a complete binary tree.

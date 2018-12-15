@@ -25,7 +25,7 @@ For example, the 3rd string in Figure 1 is the one that Eva would like to make. 
 it contains all the necessary beads with 8 extra ones; yet the 2nd one is not since there is no black bead and one 
 less red bead.
 
-![Figure 1](https://raw.githubusercontent.com/jerrykcode/PAT-Practise/master/images/1092.jpg)
+![](http://wx1.sinaimg.cn/mw690/006XXwaCgy1fy0kgn7u3xj307p05zmz3.jpg)
 *Figure 1*
 
 

@@ -20,7 +20,7 @@ operations are: push(1); push(2); push(3); pop(); pop(); push(4); pop(); pop(); 
 pop(). Then a unique binary tree (shown in Figure 1) can be generated from this sequence of operations. 
 Your task is to give the postorder traversal sequence of this tree. 
 
-![](https://raw.githubusercontent.com/jerrykcode/PAT-Practise/master/images/1086.jpg)
+![](http://wx2.sinaimg.cn/mw690/006XXwaCgy1fy0kgdiu3wj304y03hdgh.jpg)
 
 
 ## Input Specification: 

@@ -24,13 +24,13 @@ For example, the tree in Figure 1 is a red-black tree, while the ones in Figure 
 
 
 
-![](https://raw.githubusercontent.com/jerrykcode/PAT-Practise/master/images/1135_1.jpg)
+![](http://wx1.sinaimg.cn/mw690/006XXwaCgy1fy7kuuosk1j306h04lgmq.jpg)
 *Figure 1*
 
-![](https://raw.githubusercontent.com/jerrykcode/PAT-Practise/master/images/1135_2.jpg)
+![](http://wx3.sinaimg.cn/mw690/006XXwaCgy1fy7kuzevb8j306h05twfn.jpg)
 *Figure 2*
 
-![](https://raw.githubusercontent.com/jerrykcode/PAT-Practise/master/images/1135_3.jpg)
+![](http://wx4.sinaimg.cn/mw690/006XXwaCgy1fy7kv5ge8wj304y04odgw.jpg)
 *Figure 3*
 
 For each given binary search tree, you are supposed to tell if it is a legal red-black tree.

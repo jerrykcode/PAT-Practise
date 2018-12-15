@@ -23,7 +23,7 @@ Suppose that the given number is 24, then there exists 4 different paths which h
 weight: {10 5 2 7}, {10 4 10}, {10 3 3 6 2} and {10 3 3 6 2}, which correspond to the red edges in 
 Figure 1. 
 
-![](https://raw.githubusercontent.com/jerrykcode/PAT-Practise/master/images/1053.jpg)
+![](http://wx3.sinaimg.cn/mw690/006XXwaCgy1fy0kf2fm9yj30em09hmzj.jpg)
 *Figure 1*			
 
 

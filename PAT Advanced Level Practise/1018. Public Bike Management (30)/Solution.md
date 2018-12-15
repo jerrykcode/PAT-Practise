@@ -21,7 +21,7 @@ adjusted as well.
 
 When a problem station is reported, PBMC will always choose the shortest path to reach that station. If there are 
 more than one shortest path, the one that requires the least number of bikes sent from PBMC will be chosen.
-![Figure 1](https://raw.githubusercontent.com/jerrykcode/PAT-Practise/master/images/1018.jpg)
+![](http://wx1.sinaimg.cn/mw690/006XXwaCgy1fy0ketujyej305w052wf9.jpg)
 *Figure 1*
 
 Figure 1 illustrates an example. The stations are represented by vertices and the roads correspond to the edges. 
@@ -84,7 +84,7 @@ N个车站，M条路。每个车站最多能容Cmax辆车，一个车站正好�
 
 ## 思路：
 
-本题思路参考了 [柳婼 の blog 1018. Public Bike Management (30)-PAT甲级真题](https://www.liuchuo.net/archives/2373) 
+本题思路参考 https://www.liuchuo.net/archives/2373
 
 dijkstra求最短路径时，从未收录的顶点中找到dist最小的顶点min，收录min后，遍历与min相邻且未收录的顶点时，对于通过min使
 dist不变的顶点，将min记录到vector中。
@@ -94,7 +94,7 @@ dijkstra结束后DFS找出最优路径
 
 ## 参考：
 
-[柳婼 の blog 1018. Public Bike Management (30)-PAT甲级真题](https://www.liuchuo.net/archives/2373)
+https://www.liuchuo.net/archives/2373
 
 ## 代码：
 
