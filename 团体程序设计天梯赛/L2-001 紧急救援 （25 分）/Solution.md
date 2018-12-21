@@ -40,6 +40,8 @@ dijkstra求最短路径，对每一个顶点，记录当前最短路径及距离，当前到达该顶点的路径上
 
 ## 代码
 
+[L2-001 紧急救援 （25 分）.cpp ](https://github.com/jerrykcode/PAT-Practise/blob/master/%E5%9B%A2%E4%BD%93%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%A4%A9%E6%A2%AF%E8%B5%9B/L2-001%20%E7%B4%A7%E6%80%A5%E6%95%91%E6%8F%B4%20%EF%BC%8825%20%E5%88%86%EF%BC%89/L2-001%20%E7%B4%A7%E6%80%A5%E6%95%91%E6%8F%B4%20%EF%BC%8825%20%E5%88%86%EF%BC%89.cpp)
+
 ```cpp
 #include <iostream>
 #include <stack>
