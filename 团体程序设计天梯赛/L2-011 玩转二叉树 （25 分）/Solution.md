@@ -1,5 +1,5 @@
 # L2-011 玩转二叉树 （25 分）
-[原题地址]()
+[原题地址](https://pintia.cn/problem-sets/994805046380707840/problems/994805065406070784)
 
 > 作者: 陈越  
 > 单位: 浙江大学  
@@ -34,6 +34,8 @@
 首先根据preorder和inorder建树，再BFS层序遍历。镜像即左右子树对换，故BFS时，对出队列的元素，先将其右子树进队，再将其左子树进队即可。
 
 ## 代码
+
+[L2-011 玩转二叉树 （25 分）.cpp](https://github.com/jerrykcode/PAT-Practise/blob/master/%E5%9B%A2%E4%BD%93%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%A4%A9%E6%A2%AF%E8%B5%9B/L2-011%20%E7%8E%A9%E8%BD%AC%E4%BA%8C%E5%8F%89%E6%A0%91%20%EF%BC%8825%20%E5%88%86%EF%BC%89/L2-011%20%E7%8E%A9%E8%BD%AC%E4%BA%8C%E5%8F%89%E6%A0%91%20%EF%BC%8825%20%E5%88%86%EF%BC%89.cpp)
 
 ```cpp
 #include <iostream>
