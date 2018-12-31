@@ -34,6 +34,8 @@ BFS分层遍历，求出层数及最后一层的顶点
 
 ## 代码
 
+[L2-026 小字辈(25分).cpp](https://github.com/jerrykcode/PAT-Practise/blob/master/%E5%9B%A2%E4%BD%93%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%A4%A9%E6%A2%AF%E8%B5%9B/L2-026%20%E5%B0%8F%E5%AD%97%E8%BE%88%20%EF%BC%8825%20%E5%88%86%EF%BC%89/L2-026%20%E5%B0%8F%E5%AD%97%E8%BE%88%20%EF%BC%8825%20%E5%88%86%EF%BC%89.cpp)
+
 ```cpp
 #include <iostream>
 #include <vector>
