@@ -57,6 +57,8 @@
 
 ## 代码1
 
+[L2-007 家庭房产 （25 分）_BFS.cpp](https://github.com/jerrykcode/PAT-Practise/blob/master/%E5%9B%A2%E4%BD%93%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%A4%A9%E6%A2%AF%E8%B5%9B/L2-007%20%E5%AE%B6%E5%BA%AD%E6%88%BF%E4%BA%A7%20%EF%BC%8825%20%E5%88%86%EF%BC%89/L2-007%20%E5%AE%B6%E5%BA%AD%E6%88%BF%E4%BA%A7%20%EF%BC%8825%20%E5%88%86%EF%BC%89_BFS.cpp)
+
 ```cpp
 
 #include <iostream>
@@ -188,6 +190,8 @@ _set数组中pFamily非NULL的元素数量即集合数量。输出集合数量，对_set排序，pFamily非
 前，pFamily均非NULL，则按pFamily指向的信息排序。输出排序后pFamily非NULL的指向的信息。
 
 ## 代码2
+
+[L2-007 家庭房产 （25 分）_并查集.cpp](https://github.com/jerrykcode/PAT-Practise/blob/master/%E5%9B%A2%E4%BD%93%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%A4%A9%E6%A2%AF%E8%B5%9B/L2-007%20%E5%AE%B6%E5%BA%AD%E6%88%BF%E4%BA%A7%20%EF%BC%8825%20%E5%88%86%EF%BC%89/L2-007%20%E5%AE%B6%E5%BA%AD%E6%88%BF%E4%BA%A7%20%EF%BC%8825%20%E5%88%86%EF%BC%89_%E5%B9%B6%E6%9F%A5%E9%9B%86.cpp)
 
 ```cpp
 

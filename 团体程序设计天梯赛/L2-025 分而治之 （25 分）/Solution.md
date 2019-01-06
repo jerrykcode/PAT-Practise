@@ -59,6 +59,8 @@ NO
 
 ## 代码
 
+[L2-025 分而治之 （25 分）.cpp](https://github.com/jerrykcode/PAT-Practise/blob/master/%E5%9B%A2%E4%BD%93%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%A4%A9%E6%A2%AF%E8%B5%9B/L2-025%20%E5%88%86%E8%80%8C%E6%B2%BB%E4%B9%8B%20%EF%BC%8825%20%E5%88%86%EF%BC%89/L2-025%20%E5%88%86%E8%80%8C%E6%B2%BB%E4%B9%8B%20%EF%BC%8825%20%E5%88%86%EF%BC%89.cpp)
+
 ```cpp
 #include <iostream>
 #include <vector>
