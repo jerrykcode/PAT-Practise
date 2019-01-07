@@ -1,4 +1,4 @@
-L3-005 垃圾箱分布 （30 分）
+# L3-005 垃圾箱分布 （30 分）
 
 [原题地址](https://pintia.cn/problem-sets/994805046380707840/problems/994805052131098624)
 
@@ -68,6 +68,8 @@ L3-005 垃圾箱分布 （30 分）
 离之和越小越好，距离和仍然相同时，编号越小越好。
 
 ## 代码
+
+[L3-005 垃圾箱分布 （30 分）.cpp ](https://github.com/jerrykcode/PAT-Practise/blob/master/%E5%9B%A2%E4%BD%93%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%A4%A9%E6%A2%AF%E8%B5%9B/L3-005%20%E5%9E%83%E5%9C%BE%E7%AE%B1%E5%88%86%E5%B8%83%20%EF%BC%8830%20%E5%88%86%EF%BC%89/L3-005%20%E5%9E%83%E5%9C%BE%E7%AE%B1%E5%88%86%E5%B8%83%20%EF%BC%8830%20%E5%88%86%EF%BC%89.cpp)
 
 ```cpp
 #include <iostream>
