@@ -46,6 +46,8 @@
 
 ## 代码
 
+[L3-003 社交集群 （30 分）.cpp](https://github.com/jerrykcode/PAT-Practise/blob/master/%E5%9B%A2%E4%BD%93%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%A4%A9%E6%A2%AF%E8%B5%9B/L3-003%20%E7%A4%BE%E4%BA%A4%E9%9B%86%E7%BE%A4%20%EF%BC%8830%20%E5%88%86%EF%BC%89/L3-003%20%E7%A4%BE%E4%BA%A4%E9%9B%86%E7%BE%A4%20%EF%BC%8830%20%E5%88%86%EF%BC%89.cpp)
+
 ```cpp
 #include <iostream>
 #include <vector>
