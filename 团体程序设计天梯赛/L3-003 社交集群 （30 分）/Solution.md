@@ -129,6 +129,8 @@ int main() {
 		if (it != sets.begin()) putchar(' ');
 		printf("%hd", *it);
 	}
+	sets.clear();
+	vector<ID>().swap(sets);
 	return 0;
 }
 
